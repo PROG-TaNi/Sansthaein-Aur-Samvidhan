@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sansthaein Aur Samvidhan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="C:\Users\tarus\OneDrive\Desktop\SIH\style first page.css">
+    <style>
+        /* Existing styles */
+        .faq {
+            background: #121212;
+            color: #e0e0e0;
+            padding: 34px;
+        }
+
+        .faq h2 {
+            text-align: center;
+            font-size: 48px;
+        }
+
+        .faqbox {
+            font-size: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #1e1e1e;
+            padding: 24px;
+            max-width: 60vw;
+            margin: 20px auto;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+            color: #e0e0e0; /* Text color */
+        }
+
+        .faqbox:hover {
+            background-color: #2d2d2d;
+        }
+
+        .faq-content {
+            display: none;
+            padding: 20px;
+            background-color: #000; /* Background color of text boxes */
+            color: #fff; /* Text color */
+            max-width: 60vw;
+            margin: 0 auto;
+            border-radius: 4px;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+            overflow: hidden;
+            max-height: 0;
+        }
+
+        .faqbox:hover + .faq-content {
+            display: block;
+            max-height: 300px;
+            padding: 20px;
+        }
+
+        .faqbox .material-icons {
+            transition: transform 0.3s ease;
+        }
+
+        .faqbox:hover .material-icons {
+            transform: rotate(180deg);
+        }
+
+        /* Animation Styles */
+        .first, .second, .third {
+            transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+        }
+
+        /* For sections to transition in when they become visible */
+        .animate {
+            opacity: 0;
+            transform: translateX(100px);
+            transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+        }
+
+        .animate.from-left {
+            transform: translateX(-100px);
+        }
+
+        .animate.visible {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* Hover Animation */
+        .first {
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .first:hover {
+            transform: scale(1.05);
+            background-color: rgba(0, 123, 255, 0.1);
+        }
+
+        /* Typing Animation */
+        .typing-animation {
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            font-weight: 300;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px solid rgba(255, 255, 255, 0.75);
+            animation: typing 4s steps(40, end) infinite, blink 0.75s step-end infinite;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+
+            to {
+                width: 100%;
+            }
+        }
+
+        @keyframes blink {
+            from, to {
+                border-color: transparent;
+            }
+
+            50% {
+                border-color: rgba(255, 255, 255, 0.75);
+            }
+        }
+
+        /* Info Icon */
+        .info-icon {
+            color: #007bff;
+            cursor: pointer;
+            margin-left: 10px;
+            vertical-align: middle;
+            font-size: 24px;
+            transition: transform 0.3s ease;
+        }
+
+        .info-icon:hover {
+            transform: scale(1.2);
+        }
+
+        /* Text Box Styling with Dropdown Animation */
+        .text-box {
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            padding: 0 15px;
+            background-color: #000; /* Background color of text boxes */
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            margin-top: 10px;
+            transition: max-height 0.5s ease, opacity 0.5s ease, padding 0.5s ease;
+            color: #fff; /* Text color */
+        }
+
+        .text-box.visible {
+            max-height: 200px; /* Adjust as needed */
+            opacity: 1;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <nav>
+            <span><img width="53" src="assets/images/logo.svg" alt=""></span>
+            <div>
+                <a href="sigin.html">
+                    <button class="btn btn-red-sm">Sign-In</button>
+                </a>
+            </div>
+        </nav>
+        <div class="box">
+        </div>
+        <div class="hero">
+            <span>Welcome To Sansthaein Aur Samvidhan</span>
+            <span>Understanding the Constitution is now a child's play</span>
+            <span>Ready to Play??</span>
+            <div class="hero-buttons">
+                <a href="signup.html">
+                    <button class="btn btn-red" href="signup.html">Let's Get You Started &gt;</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="separation"></div>
+
+    </div>
+    <!-- About Us -->
+    <section id="about" class="py-5 animate from-left">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="display-5">About Us</h2>
+                    <p class="lead mt-3">A group of people who wanted to bring forth change.</p>
+                    <p>We at Sansthaein Aur Samvidhan are dedicated to making the Constitution of India accessible to everyone by simplifying key aspects of the Legislature, Executive, and Judiciary through interactive, gamified platforms. Our mission is to empower citizens with knowledge, fostering informed decisions about their rights and duties.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="C:\Users\tarus\OneDrive\Desktop\SIH\Website logo.jpg" alt="Alumni Gathering" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="separation"></div>
+
+    <section class="first animate from-right">
+        <div>
+            <span>LEGISLATURE</span>
+            <span>This branch makes the laws. It is like a big group of elected people who come together to decide on rules everyone has to follow.</span>
+            <span class="material-icons info-icon" data-target=".legislature-text">info</span>
+        </div>
+
+        <div class="secImg">
+            <img src="C:\Users\tarus\OneDrive\Desktop\SIH\legistlature pic.jpeg" alt="">
+        </div>
+    </section>
+    <div class="text-box legislature-text">
+        <p>The Legislature in India is a bicameral body comprising the Lok Sabha (House of the People) and the Rajya Sabha (Council of States). The Lok Sabha is the lower house, with members elected directly by the people through general elections. It is responsible for making laws, scrutinizing government policies, and representing public interests. The Rajya Sabha is the upper house, with members appointed by state legislatures and nominated by the President. It reviews and revises legislation proposed by the Lok Sabha. Together, both houses of the Legislature debate and pass laws, hold the Executive accountable, and play a critical role in shaping national policy.</p>
+    </div>
+    <div class="separation"></div>
+
+    <section class="first second animate from-left">
+        <div class="secImg">
+            <img src="C:\Users\tarus\OneDrive\Desktop\SIH\executive pic.jpeg" alt="">
+        </div>
+        <div>
+            <span>EXECUTIVE</span>
+            <span>This branch enforces the laws. It is led by the President or Prime Minister, who ensures that the laws are followed and that the government runs smoothly.</span>
+            <span class="material-icons info-icon" data-target=".executive-text">info</span>
+        </div>
+    </section>
+    <div class="text-box executive-text">
+        <p>In India, the Executive branch is responsible for implementing and enforcing laws. It is headed by the President, who is the ceremonial head of state, while the real executive power lies with the Prime Minister and the Council of Ministers. The Prime Minister, as the head of government, leads the executive branch, making key policy decisions and overseeing government operations. The Executive's responsibilities include administering government programs, formulating policies, and representing India in foreign affairs. It ensures that laws passed by the Legislature are executed and maintains the day-to-day functions of the government, playing a vital role in national administration.</p>
+    </div>
+    <div class="separation"></div>
+
+    <section class="first third animate from-right">
+        <div>
+            <span>JUDICIARY</span>
+            <span>This branch interprets the laws. It includes judges and courts, who decide what the laws mean and make sure they are applied fairly.</span>
+            <span class="material-icons info-icon" data-target=".judiciary-text">info</span>
+        </div>
+        <div class="secImg">
+            <img src="../SIH/Judiciary picture.jpegA" alt="">
+        </div>
+    </section>
+    <div class="text-box judiciary-text">
+        <p>
+            In India, the Judiciary is a cornerstone of the democratic system, tasked with upholding the Constitution and ensuring justice. It comprises the Supreme Court, High Courts, and subordinate courts. The Supreme Court, the highest judicial authority, oversees constitutional interpretation and protects fundamental rights. High Courts handle state-level legal matters and supervise subordinate courts. This multi-tiered structure allows for thorough legal scrutiny and appeals. The Judiciary in India also plays a crucial role in reviewing the actions of the Legislature and Executive, ensuring that governance adheres to constitutional principles. By safeguarding rights and ensuring legal accountability, the Indian Judiciary upholds the rule of law and democracy.</p>
+    </div>
+    <div class="separation"></div>
+
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faqbox">
+            <span>Why this website</span>
+            <span class="material-icons">expand_more</span>
+        </div>
+        <div class="faq-content">
+            <p>In today's fast-paced world, traditional methods of learning often fail to engage young minds. This website is designed to bridge that gap by offering a unique and interactive way to learn about the constitution. Through games and interactive activities, users can explore the principles, values, and history of the constitution in a fun and engaging manner. By combining education with entertainment, this platform ensures that learning about such an essential topic becomes an enjoyable and memorable experience for all ages.</p>
+        </div>
+
+        <div class="faqbox">
+            <span>Is it free of cost?</span>
+            <span class="material-icons">expand_more</span>
+        </div>
+        <div class="faq-content">
+            <p>Yes, the website is completely free of cost for users.</p>
+        </div>
+
+        <div class="faqbox">
+            <span>Can a 12-year-old use it?</span>
+            <span class="material-icons">expand_more</span>
+        </div>
+        <div class="faq-content">
+            <p>Yes, the website is designed to be user-friendly for all ages, including 12-year-olds.</p>
+        </div>
+    </section>
+    <div class="separation"></div>
+
+    <footer>
+        <div class="questions">
+            <p class="typing-animation">&copy; Sansthaein Aur Samvidhan. All rights reserved.</p>
+        </div>
+        <div class="footer">
+            <div class="footer-item">
+                <a href="faq">About US</a>
+            </div>
+
+            <div class="footer-item">
+                <a href="faq">Whats New</a>
+            </div>
+            <div class="footer-item">
+                <a href="faq">Contact Us</a>
+            </div>
+
+            <div class="footer-item">
+                <a href="faq">Privacy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('scroll', function () {
+            const elements = document.querySelectorAll('.animate');
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            const windowHeight = window.innerHeight;
+
+            elements.forEach(function (element) {
+                const rect = element.getBoundingClientRect();
+                const elementTop = rect.top + scrollTop;
+                const elementBottom = rect.bottom + scrollTop;
+
+                // Check if the element is in the viewport
+                if (scrollTop + windowHeight >= elementTop + 100 && scrollTop <= elementBottom) {
+                    element.classList.add('visible');
+                } else {
+                    element.classList.remove('visible');
+                }
+            });
+        });
+
+        document.querySelectorAll('.info-icon').forEach(function(icon) {
+            icon.addEventListener('click', function() {
+                const target = document.querySelector(icon.getAttribute('data-target'));
+                target.classList.toggle('visible');
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Science Fiction trivia quiz game, with various categories.">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#4ac0db">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#051417">
+    <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#051417">
+
+    <!-- Page Title -->
+    <title>Judiciary Quiz- Level</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- Font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Preconnect to the Google Fonts server -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Preconnect to the Google Fonts static server with crossorigin attribute -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet"> <!-- Link the Google Fonts stylesheet -->
+
+    <link rel="preload" href="https://fonts.cdnfonts.com/css/breamcatcher" as="style"> <!-- Preload the web font -->
+    <link href="https://fonts.cdnfonts.com/css/breamcatcher" rel="stylesheet"> <!-- Link the web font stylesheet -->
+</head>
+<body  class="level">
+    <!-- Fuzzy old Tv like Overlay -->
+    <div class="blink"></div>
+
+    <!-- Border Box -->
+    <div class="border-box">
+        <header>
+            <!-- Logo -->
+            <h1 id="page-heading">
+                <a class="logo" href="./index.html" aria-label="logo home page link">Science Fiction Quiz</a>
+            </h1>
+
+            <nav>
+                <!-- Sound control buttons -->
+                <audio id="track" src="" type="audio/mpeg" autoplay></audio>
+                <div class="outline-btn sound-btn">
+                <div id="player-container">
+                    <div id="play-pause" class="play"><img id="muteIcon" src="./assets/images/pause.png" alt="unmuted"></div>
+                </div>
+                </div>
+                <button id="mute-button" class="mute-button" aria-label="mute button"></button>
+                <!-- How to Play Button -->
+                <button data-open-modal class="outline-btn" aria-label="how to play button">How to Play?</button>
+                <!-- Modal for How to Play -->
+                <dialog id="modalHowtoplay" data-modal>
+                    <div class="modal">
+                        <button class="btn close-btn" aria-label="close button" data-close-modal>&#10005;</button>
+                        <div id="howtoplay-container">
+                            <h2>How to Play?</h2>
+                            <ul>
+                                <li>First Select a category from the List<br>OR<br>Click "Spin the Wheel" to select a category at Random</li>
+                                <li>This will take you to the "Select your Level" page.<br>Here you can choose from "Easy", "Medium" or "Hard".</li>
+                                <li>You will then be taken to the Quiz, here you will get a total of 10 questions to answer.</li>
+                                <li>Choose your answer, this will then be highlighted:<br>Green for Correct.<br>Red for Wrong.</li>
+                                <li>At the End you will be taken to the Results page.<br>Here you will be able to see all your answers with the questions, highlighted in the same way in green or red.</li>
+                                <li>Yes! you completed the quiz.<br>Now click on the "Home" Button to return back to the main home screen.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </dialog>
+                <!-- Home Button -->
+                <button id="home-button" class="outline-btn" aria-label="home button">Home</button>
+            </nav>
+        </header>
+
+        <main class="grid">
+            <h2>Choose your Level:</h2>
+            <!-- HTML structure for level menu page -->
+            <div id="level-menu"></div>
+
+            <select onchange="window.location.href=this.value">
+                <option value="">Change Category?</option>
+                <option value="level.html?category=Game%20of%20Thrones">Supreme Foundation</option>
+                <option value="level.html?category=Scorpion"> Judicial Appointments </option>
+                <option value="level.html?category=Star%20Trek">Supreme Jurisdiction</option>
+                <option value="level.html?category=Supernatural">Powers of the Apex code</code></option>
+                <option value="level.html?category=Doctor%20Who">Supreme Procedures </option>
+                <option value="level.html?category=The%20Big%20Bang%20Theory">High Court Framework</option>
+                <option value="level.html?category=Stranger%20Things">District Judiciary</option>
+                <option value="level.html?category=Star%20Wars">Subordinate Jurisdiction</option>
+                <option value="level.html?category=Stargate">Judicial Protections</option>
+                <option value="level.html?category=Harry%20Potter">Judicial Provision</option>
+            </select>
+
+        </main>
+
+        <footer>
+            <div class="container">
+                <!-- Contact Button -->
+                <button data-open-modal class="contact-btn" aria-label="Contact button">Feedback / Report bugs</button>
+                <!-- Modal for Contact Form -->
+                <dialog id="modalContact" data-modal>
+                    <div class="modal">
+                        <button class="btn close-btn" aria-label="close button" data-close-modal>&#10005;</button>
+                        <div id="contact-container">
+                            <h2>Get in Touch</h2>
+                            <p>Please use this form to provide feedback or report any bugs you find.</p>
+                            <form id="contact-form">
+                                <input type="hidden" name="contact_number">
+                                <label for="name">NAME</label>
+                                <input type="text" id="name" name="user_name" aria-label="Please enter your name" required>
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" name="user_email" aria-label="Please enter your email" required>
+                                <label for="message">YOUR MESSAGE</label>
+                                <textarea id="message" name="message" aria-label="Please provide message"
+                                    required></textarea>
+                                <div id="error-message">
+                                    <noscript>
+                                        <p>This form requires JavaScript to work. Your browser does not support
+                                            JavaScript or it is disabled! <a href="https://www.enable-javascript.com/"
+                                                target="_blank"
+                                                aria-label="Visit enable-javascript.com (opens in a new tab)">.
+                                                Click here for more information on enabling JavaScript</a>.
+                                        </p>
+                                    </noscript>
+                                </div>
+                                <div id="submit-button">
+                                    <input type="submit" id="submit-contact-button" class="blue-btn" aria-label="Submit message">
+                                </div>
+                            </form>
+                            <div id="thank-you-message"></div>
+                        </div>
+                    </div>
+                </dialog>
+                <!-- Copywrite -->
+                <div class="copywrite">© 2023 Science Fiction Quiz. All Rights Reserved.</div>
+                <!-- Project description -->
+                
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript files -->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/levels.js"></script>
+    <!-- EmailJS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="assets/js/contact.js"></script>
+</body>
+</html>

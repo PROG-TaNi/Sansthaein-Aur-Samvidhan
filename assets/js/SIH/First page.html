@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sansthaein Aur Samvidhan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .faq {
+            background: #121212;
+            color: #e0e0e0;
+            padding: 34px;
+        }
+
+        .faq h2 {
+            text-align: center;
+            font-size: 48px;
+        }
+
+        .faqbox {
+            font-size: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #1e1e1e;
+            padding: 24px;
+            max-width: 60vw;
+            margin: 20px auto;
+            cursor: pointer;
+            border-radius: 4px; /* Optional: rounds the corners */
+            transition: background-color 0.3s ease;
+        }
+
+        .faqbox:hover {
+            background-color: #2d2d2d;
+        }
+
+        .faq-content {
+            display: none;
+            padding: 20px;
+            background-color: #2d2d2d;
+            max-width: 60vw;
+            margin: 0 auto;
+            border-radius: 4px;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+            overflow: hidden;
+            max-height: 0;
+        }
+
+        .faqbox:hover + .faq-content {
+            display: block;
+            max-height: 300px; /* Adjust as needed */
+            padding: 20px;
+        }
+
+        .faqbox .material-icons {
+            transition: transform 0.3s ease;
+        }
+
+        .faqbox:hover .material-icons {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <nav>
+            <span><img width="53" src="assets/images/logo.svg" alt=""></span>
+            <div>
+                <a href="sigin.html">
+                    <button class="btn btn-red-sm">Sign-In</button>
+                </a>
+            </div>
+        </nav>
+        <div class="box">
+        </div>
+        <div class="hero">
+            <span>Welcome To Sansthaein Aur Samvidhan</span>
+            <span>Understanding the Constution is now a child's play</span>
+            <span>Ready to Play??</span>
+            <div class="hero-buttons">
+                <a href="signup.html">
+                    <button class="btn btn-red" href="signup.html">Let's Get You Started &gt;</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="separation"></div>
+
+    </div>
+<!-- About Us -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="display-5">About Us</h2>
+                    <p class="lead mt-3">A group of people who wanted to bring forth change.</p>
+                    <p>We at Sansthaein Aur Samvidhan are dedicated to making the Constitution of India accessible to everyone by simplifying key aspects of the Legislature, Executive, and Judiciary through interactive, gamified platforms. Our mission is to empower citizens with knowledge, fostering informed decisions about their rights and duties.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="About Us.jpg" alt="Alumni Gathering" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="separation"></div>
+
+    <section class="first">
+        <div>
+            <span>LEGISTLATURE</span>
+            <span>This branch makes the laws. It is like a big group of elected people who come together to decide on rules everyone has to follow.</span>
+        </div>
+
+        <div class="secImg">
+            <img src="legistlature.jpeg" alt="">
+    </section>
+    <div class="separation"></div>
+
+    <section class="first second">
+
+        <div class="secImg">
+            <img src="legistlature.jpeg" alt="">
+
+        </div>
+        <div>
+            <span>EXECUTIVE</span>
+            <span>This branch enforces the laws. It is led by the President or Prime Minister, who ensures that the laws are followed and that the government runs smoothly.</span>
+        </div>
+    </section>
+
+    <div class="separation"></div>
+    <section class="first third">
+        <div>
+            <span>JUDICIARY</span>
+            <span>This branch interprets the laws. It includes judges and courts, who decide what the laws mean and make sure they are applied fairly.</span>
+        </div>
+
+        <div class="secImg">
+            <img src="legistlature.jpeg" alt="">
+
+        </div>
+    </section>
+    <div class="separation"></div>
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faqbox">
+            <span>Why this website</span>
+            <span class="material-icons">expand_more</span>
+        </div>
+        <div class="faq-content">
+            <p>Detailed explanation about why this website is important.</p>
+        </div>
+
+        <div class="faqbox">
+            <span>Is it free of cost?</span>
+            <span class="material-icons">expand_more</span>
+        </div>
+        <div class="faq-content">
+            <p>Yes, the website is completely free of cost for users.</p>
+        </div>
+
+        <div class="faqbox">
+            <span>Can a 12-year-old use it?</span>
+            <span class="material-icons">expand_more</span>
+        </div>
+        <div class="faq-content">
+            <p>Yes, the website is designed to be user-friendly for all ages, including 12-year-olds.</p>
+        </div>
+    </section>
+    <div class="separation"></div>
+
+    <footer>
+        <div class="questions">
+            <p class="text-center">&copy; Sansthaein Aur Samvidhan. All rights reserved.</p>
+        </div>
+        <div class="footer">
+            <div class="footer-item"> 
+                <a href="faq">About US</a>
+                <a href="faq">About US</a>
+                <a href="faq">About US</a>
+                <a href="faq">About US</a>
+                
+            </div>
+
+            <div class="footer-item"> 
+                <a href="faq">Whats New</a>
+                <a href="faq">Whats New</a>
+                <a href="faq">Whats New</a>
+                <a href="faq">Whats New</a>
+                
+            </div>
+            <div class="footer-item">
+                <a href="faq">Contact Us</a>
+                <a href="faq">Contact Us</a>
+                <a href="faq">Contact Us</a>
+                <a href="faq">Contact Us</a>
+                
+            </div>
+
+            <div class="footer-item">
+                <a href="faq">Privacy</a>
+                <a href="faq">Privacy</a>
+                <a href="faq">Privacy</a>
+                <a href="faq">Privacy</a>
+                
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

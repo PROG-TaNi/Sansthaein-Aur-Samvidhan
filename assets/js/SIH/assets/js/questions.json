@@ -1,0 +1,5168 @@
+{
+    "Game of Thrones": [
+      {
+        "question": "Who is known as the 'Mother of Dragons'?",
+        "options": [
+          "Daenerys Targaryen",
+          "Tyrion Lannister",
+          "Jon Snow",
+          "Cersei Lannister"
+        ],
+        "level": "easy",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who is Arya Stark's direwolf?",
+        "options": [
+          "Lady",
+          "Ghost",
+          "Nymeria",
+          "Summer"
+        ],
+        "level": "easy",
+        "correctIndex": 2
+      },
+      {
+        "question": "Which family's motto is 'Ours is the Fury'?",
+        "options": [
+          "Lannister",
+          "Targaryen",
+          "Stark",
+          "Baratheon"
+        ],
+        "level": "easy",
+        "correctIndex": 3
+      },
+      {
+        "question": "Who is the oldest Stark sibling?",
+        "options": [
+          "Sansa Stark",
+          "Arya Stark",
+          "Bran Stark",
+          "Robb Stark"
+        ],
+        "level": "easy",
+        "correctIndex": 3
+      },
+      {
+        "question": "Who is responsible for the creation of the Night King?",
+        "options": [
+          "The Children of the Forest",
+          "The Faceless Men",
+          "The Three-Eyed Raven",
+          "The White Walkers"
+        ],
+        "level": "easy",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who said the famous quote, 'When you play the game of thrones, you win or you die'?",
+        "options": [
+          "Tyrion Lannister",
+          "Cersei Lannister",
+          "Jaime Lannister",
+          "Petyr Baelish"
+        ],
+        "level": "easy",
+        "correctIndex": 1
+      },
+      {
+        "question": "What is the name of Jon Snow's Valyrian steel sword?",
+        "options": [
+          "Longclaw",
+          "Ice",
+          "Needle",
+          "Oathkeeper"
+        ],
+        "level": "easy",
+        "correctIndex": 0
+      },
+      {
+        "question": "Which house sigil features a three-headed dragon?",
+        "options": [
+          "Targaryen",
+          "Stark",
+          "Lannister",
+          "Baratheon"
+        ],
+        "level": "easy",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who is known as 'The Imp'?",
+        "options": [
+          "Tyrion Lannister",
+          "Cersei Lannister",
+          "Jaime Lannister",
+          "Tywin Lannister"
+        ],
+        "level": "easy",
+        "correctIndex": 0
+      },
+      {
+        "question": "Which character says the phrase, 'Valar Morghulis'?",
+        "options": [
+          "Arya Stark",
+          "Daenerys Targaryen",
+          "Jaime Lannister",
+          "Bran Stark"
+        ],
+        "level": "easy",
+        "correctIndex": 1
+      },
+      {
+        "question": "Who was responsible for the death of King Joffrey?",
+        "options": [
+          "Olenna Tyrell",
+          "Tyrion Lannister",
+          "Sansa Stark",
+          "Jaime Lannister"
+        ],
+        "level": "easy",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who is known as the 'Red Viper'?",
+        "options": [
+          "Oberyn Martell",
+          "Euron Greyjoy",
+          "Ramsay Bolton",
+          "Theon Greyjoy"
+        ],
+        "level": "easy",
+        "correctIndex": 0
+      },
+      {
+        "question": "Which house's words are 'Fire and Blood'?",
+        "options": [
+          "Targaryen",
+          "Stark",
+          "Lannister",
+          "Greyjoy"
+        ],
+        "level": "easy",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who is the Three-Eyed Raven?",
+        "options": [
+          "Bran Stark",
+          "Jon Snow",
+          "Jaime Lannister",
+          "Tyrion Lannister"
+        ],
+        "level": "easy",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who is the leader of the Night's Watch at the beginning of the series?",
+        "options": [
+          "Jeor Mormont",
+          "Jon Snow",
+          "Alliser Thorne",
+          "Benjen Stark"
+        ],
+        "level": "easy",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who killed Tywin Lannister?",
+        "options": [
+          "Tyrion Lannister",
+          "Cersei Lannister",
+          "Jaime Lannister",
+          "Arya Stark"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "What is the name of Daenerys Targaryen's dragon that was killed by the Night King?",
+        "options": [
+          "Viserion",
+          "Rhaegal",
+          "Drogon",
+          "Drogon"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who was responsible for the poisoning of King Joffrey?",
+        "options": [
+          "Olenna Tyrell",
+          "Littlefinger",
+          "Varys",
+          "Petyr Baelish"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "Which house has a sigil of a golden lion?",
+        "options": [
+          "Lannister",
+          "Stark",
+          "Targaryen",
+          "Greyjoy"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "What is the name of Arya Stark's sword?",
+        "options": [
+          "Needle",
+          "Ice",
+          "Longclaw",
+          "Oathkeeper"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who became the ruler of the Iron Islands after the death of Balon Greyjoy?",
+        "options": [
+          "Euron Greyjoy",
+          "Theon Greyjoy",
+          "Yara Greyjoy",
+          "Asha Greyjoy"
+        ],
+        "level": "medium",
+        "correctIndex": 2
+      },
+      {
+        "question": "Which family possesses the Valyrian steel sword called 'Heartsbane'?",
+        "options": [
+          "Tarly",
+          "Tyrell",
+          "Martell",
+          "Greyjoy"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who was known as the 'Queen of Thorns'?",
+        "options": [
+          "Olenna Tyrell",
+          "Cersei Lannister",
+          "Margaery Tyrell",
+          "Ellaria Sand"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "Which character said the phrase, 'Chaos isn't a pit. Chaos is a ladder'?",
+        "options": [
+          "Petyr Baelish",
+          "Varys",
+          "Tywin Lannister",
+          "Ramsay Bolton"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "What is the nickname given to Jaime Lannister?",
+        "options": [
+          "Kingslayer",
+          "The Hound",
+          "The Mountain",
+          "The Imp"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who was Sansa Stark's first husband?",
+        "options": [
+          "Tyrion Lannister",
+          "Ramsay Bolton",
+          "Joffrey Baratheon",
+          "Robb Stark"
+        ],
+        "level": "medium",
+        "correctIndex": 1
+      },
+      {
+        "question": "Who delivered the fatal blow to the Night King?",
+        "options": [
+          "Arya Stark",
+          "Jon Snow",
+          "Daenerys Targaryen",
+          "Bran Stark"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who is the commander of the Unsullied?",
+        "options": [
+          "Grey Worm",
+          "Barristan Selmy",
+          "Jorah Mormont",
+          "Missandei"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "Which character says the phrase, 'I drink and I know things'?",
+        "options": [
+          "Tyrion Lannister",
+          "Bronn",
+          "Jaqen H'ghar",
+          "Beric Dondarrion"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who served as Hand of the King to Joffrey Baratheon?",
+        "options": [
+          "Tyrion Lannister",
+          "Tywin Lannister",
+          "Petyr Baelish",
+          "Varys"
+        ],
+        "level": "medium",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who killed Oberyn Martell in a trial by combat?",
+        "options": [
+          "The Mountain",
+          "Tyrion Lannister",
+          "Bronn",
+          "Barristan Selmy"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      },
+      {
+        "question": "Which character was responsible for the death of Ramsay Bolton?",
+        "options": [
+          "Sansa Stark",
+          "Arya Stark",
+          "Theon Greyjoy",
+          "Jon Snow"
+        ],
+        "level": "hard",
+        "correctIndex": 1
+      },
+      {
+        "question": "What is the name of the sword wielded by Brienne of Tarth?",
+        "options": [
+          "Oathkeeper",
+          "Widow's Wail",
+          "Ice",
+          "Longclaw"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who is the father of Lyanna Stark's son?",
+        "options": [
+          "Rhaegar Targaryen",
+          "Robert Baratheon",
+          "Ned Stark",
+          "Brandon Stark"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      },
+      {
+        "question": "Which character was the first to say, 'Winter is coming' in the TV series?",
+        "options": [
+          "Ned Stark",
+          "Jon Snow",
+          "Robb Stark",
+          "Bran Stark"
+        ],
+        "level": "hard",
+        "correctIndex": 1
+      },
+      {
+        "question": "Who was known as the 'Mad King'?",
+        "options": [
+          "Aerys II Targaryen",
+          "Robert Baratheon",
+          "Joffrey Baratheon",
+          "Stannis Baratheon"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who killed the Night King?",
+        "options": [
+          "Arya Stark",
+          "Jon Snow",
+          "Bran Stark",
+          "Daenerys Targaryen"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      },
+      {
+        "question": "What is the name of Jon Snow's direwolf?",
+        "options": [
+          "Ghost",
+          "Summer",
+          "Grey Wind",
+          "Shaggydog"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who is the rightful heir to the Iron Throne?",
+        "options": [
+          "Jon Snow",
+          "Daenerys Targaryen",
+          "Cersei Lannister",
+          "Gendry Baratheon"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      },
+      {
+        "question": "What is the name of the gigantic ice wall that separates the Seven Kingdoms from the lands beyond?",
+        "options": [
+          "The Wall",
+          "The Shield",
+          "The Barrier",
+          "The Divide"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who is the creator of the Night King in the TV series?",
+        "options": [
+          "The Children of the Forest",
+          "Bran Stark",
+          "The Faceless Men",
+          "The Lord of Light"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      },
+      {
+        "question": "Which character said the phrase, 'A girl is Arya Stark of Winterfell. And I'm going home'?",
+        "options": [
+          "Arya Stark",
+          "Sansa Stark",
+          "Brienne of Tarth",
+          "Catelyn Stark"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      },
+      {
+        "question": "Who was the first King in the North?",
+        "options": [
+          "Robb Stark",
+          "Bran the Builder",
+          "Torghen Flint",
+          "Jon Stark"
+        ],
+        "level": "hard",
+        "correctIndex": 1
+      },
+      {
+        "question": "Who was the mastermind behind the 'Red Wedding'?",
+        "options": [
+          "Tywin Lannister",
+          "Roose Bolton",
+          "Walder Frey",
+          "Littlefinger"
+        ],
+        "level": "hard",
+        "correctIndex": 2
+      },
+      {
+        "question": "What is the name of the ancestral castle of House Stark?",
+        "options": [
+          "Winterfell",
+          "Casterly Rock",
+          "Highgarden",
+          "Dragonstone"
+        ],
+        "level": "hard",
+        "correctIndex": 0
+      }
+    ],
+
+    "Scorpion": [
+        {
+          "question": "What is the name of the main character in Scorpion?",
+          "options": [
+            "Walter O'Brien",
+            "Toby Curtis",
+            "Sylvester Dodd",
+            "Happy Quinn"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which U.S. government agency recruits the team in Scorpion?",
+          "options": [
+            "Department of Homeland Security",
+            "Central Intelligence Agency",
+            "Federal Bureau of Investigation",
+            "National Security Agency"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the team's special ability in Scorpion?",
+          "options": [
+            "Genius-level intelligence",
+            "Super strength",
+            "Telepathy",
+            "Invisibility"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the team leader in Scorpion?",
+          "options": [
+            "Walter O'Brien",
+            "Toby Curtis",
+            "Sylvester Dodd",
+            "Happy Quinn"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is a mechanical prodigy and builds amazing inventions?",
+          "options": [
+            "Ralph Dineen",
+            "Toby Curtis",
+            "Sylvester Dodd",
+            "Happy Quinn"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the team's name in Scorpion?",
+          "options": [
+            "Scorpion",
+            "Genius Squad",
+            "Tech Force",
+            "Brainiacs"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is a behaviorist and expert in reading people?",
+          "options": [
+            "Toby Curtis",
+            "Walter O'Brien",
+            "Sylvester Dodd",
+            "Happy Quinn"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the team's mechanical expert and a gifted mechanic?",
+          "options": [
+            "Happy Quinn",
+            "Toby Curtis",
+            "Walter O'Brien",
+            "Sylvester Dodd"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the federal agent who initially recruits the team?",
+          "options": [
+            "Cabe Gallo",
+            "Adriana Molina",
+            "Megan O'Brien",
+            "Ray Spiewack"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the team's base of operations in Scorpion?",
+          "options": [
+            "The Garage",
+            "The Hive",
+            "The Lair",
+            "The Workshop"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character is a math prodigy and a human calculator?",
+          "options": [
+            "Sylvester Dodd",
+            "Toby Curtis",
+            "Happy Quinn",
+            "Walter O'Brien"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the primary goal of the team in Scorpion?",
+          "options": [
+            "Solve complex crimes",
+            "Save lives",
+            "Conduct espionage",
+            "Hack into government systems"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character is a mechanical prodigy and builds amazing inventions?",
+          "options": [
+            "Ralph Dineen",
+            "Toby Curtis",
+            "Sylvester Dodd",
+            "Happy Quinn"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the team's name in Scorpion?",
+          "options": [
+            "Scorpion",
+            "Genius Squad",
+            "Tech Force",
+            "Brainiacs"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is a behaviorist and expert in reading people?",
+          "options": [
+            "Toby Curtis",
+            "Walter O'Brien",
+            "Sylvester Dodd",
+            "Happy Quinn"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the team's mechanical expert and a gifted mechanic?",
+          "options": [
+            "Happy Quinn",
+            "Toby Curtis",
+            "Walter O'Brien",
+            "Sylvester Dodd"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is Walter O'Brien's highest recorded IQ in Scorpion?",
+          "options": [
+            "197",
+            "180",
+            "212",
+            "195"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which member of the team has a fear of flying?",
+          "options": [
+            "Toby Curtis",
+            "Walter O'Brien",
+            "Sylvester Dodd",
+            "Happy Quinn"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who becomes Paige Dineen's love interest in Scorpion?",
+          "options": [
+            "Toby Curtis",
+            "Walter O'Brien",
+            "Sylvester Dodd",
+            "Cabe Gallo"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of Ralph Dineen's mother in Scorpion?",
+          "options": [
+            "Megan O'Brien",
+            "Adriana Molina",
+            "Linda",
+            "Veronica Dineen"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the real name of the hacker 'Scorpion' who inspired the TV series?",
+          "options": [
+            "Kevin Mitnick",
+            "Adrian Lamo",
+            "Albert Gonzalez",
+            "Gary McKinnon"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who becomes the team's attorney and legal advisor in Scorpion?",
+          "options": [
+            "Cabe Gallo",
+            "Ray Spiewack",
+            "Happy Quinn",
+            "Paige Dineen"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the technology company owned by Walter O'Brien in Scorpion?",
+          "options": [
+            "ScorpionTech",
+            "WizTech",
+            "O'Brien Systems",
+            "KarmaTech"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Who is the first member of the team to join Scorpion?",
+          "options": [
+            "Toby Curtis",
+            "Sylvester Dodd",
+            "Happy Quinn",
+            "Paige Dineen"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the primary reason Walter O'Brien forms the team in Scorpion?",
+          "options": [
+            "To solve complex puzzles",
+            "To save lives",
+            "To build advanced technology",
+            "To prove his genius"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character suffers from severe anxiety and panic attacks in Scorpion?",
+          "options": [
+            "Sylvester Dodd",
+            "Toby Curtis",
+            "Walter O'Brien",
+            "Happy Quinn"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the team's motto in Scorpion?",
+          "options": [
+            "Genius in action",
+            "Think, Adapt, Overcome",
+            "Smarter together",
+            "Unleash the mind"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of Walter O'Brien's sister in Scorpion?",
+          "options": [
+            "Megan",
+            "Paige",
+            "Linda",
+            "Veronica"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the real-life profession of Walter O'Brien, the inspiration behind the character in Scorpion?",
+          "options": [
+            "Computer programmer",
+            "Aerospace engineer",
+            "Cybersecurity expert",
+            "Musician"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which member of the team has a gambling addiction in Scorpion?",
+          "options": [
+            "Sylvester Dodd",
+            "Toby Curtis",
+            "Happy Quinn",
+            "Walter O'Brien"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of Toby Curtis' ex-wife in Scorpion?",
+          "options": [
+            "Amy",
+            "Linda",
+            "Megan",
+            "Paige"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the real reason behind Walter O'Brien's decision to form the team in Scorpion?",
+          "options": [
+            "To save his sister",
+            "To stop a global conspiracy",
+            "To redeem his past mistakes",
+            "To find his long-lost father"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character on Scorpion has a condition called Tetrachromacy?",
+          "options": [
+            "Paige Dineen",
+            "Happy Quinn",
+            "Sylvester Dodd",
+            "Walter O'Brien"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "Who was the initial target of the team's first mission in Scorpion?",
+          "options": [
+            "Astronauts on the International Space Station",
+            "The President of the United States",
+            "A military base housing nuclear weapons",
+            "A top-secret research facility"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which member of the team has a high tolerance for pain and a resistance to anesthesia?",
+          "options": [
+            "Toby Curtis",
+            "Walter O'Brien",
+            "Happy Quinn",
+            "Sylvester Dodd"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the Serbian war criminal who becomes a recurring antagonist in Scorpion?",
+          "options": [
+            "Mark Collins",
+            "Dmitri Ravinoff",
+            "Nikolai Tarasov",
+            "Dragan Gavrilovic"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character on Scorpion has an eidetic memory?",
+          "options": [
+            "Walter O'Brien",
+            "Toby Curtis",
+            "Sylvester Dodd",
+            "Happy Quinn"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who becomes the U.S. Secretary of Commerce and a recurring character in Scorpion?",
+          "options": [
+            "Megan O'Brien",
+            "Adriana Molina",
+            "Veronica Dineen",
+            "Sylvester Dodd"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the artificial intelligence developed by the team in Scorpion?",
+          "options": [
+            "Arachnid",
+            "Oracle",
+            "Wiz",
+            "Labyrinth"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character on Scorpion is a former child prodigy who graduated from Harvard at the age of 14?",
+          "options": [
+            "Walter O'Brien",
+            "Sylvester Dodd",
+            "Toby Curtis",
+            "Happy Quinn"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the secret government project that Walter O'Brien was involved in before forming the team in Scorpion?",
+          "options": [
+            "Project Scorpion",
+            "Project Genius",
+            "Project Hive",
+            "Project Mindstorm"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who was responsible for the car accident that resulted in Megan O'Brien's condition in Scorpion?",
+          "options": [
+            "Walter O'Brien",
+            "Toby Curtis",
+            "Happy Quinn",
+            "Cabe Gallo"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the computer system that the team uses to communicate and analyze data in Scorpion?",
+          "options": [
+            "ScorpioNet",
+            "TechCom",
+            "GeniusGrid",
+            "BrainWave"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "Who becomes the head of Homeland Security and a recurring character in Scorpion?",
+          "options": [
+            "Cabe Gallo",
+            "Adriana Molina",
+            "Ray Spiewack",
+            "Toby Curtis"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which member of the team has a degree in mechanical engineering and is a skilled pilot?",
+          "options": [
+            "Happy Quinn",
+            "Toby Curtis",
+            "Walter O'Brien",
+            "Sylvester Dodd"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the billionaire tech mogul who becomes a recurring character in Scorpion?",
+          "options": [
+            "Richard Elia",
+            "Tim Armstrong",
+            "Jerry Hartfield",
+            "Merrick Warner"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character on Scorpion has a talent for linguistics and can speak multiple languages?",
+          "options": [
+            "Walter O'Brien",
+            "Paige Dineen",
+            "Sylvester Dodd",
+            "Happy Quinn"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        }
+    ],
+
+    "Star Trek": [
+        {
+          "question": "Who is the captain of the USS Enterprise in the original Star Trek series?",
+          "options": [
+            "James T. Kirk",
+            "Jean-Luc Picard",
+            "Jonathan Archer",
+            "Benjamin Sisko"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Vulcan science officer in the original Star Trek series?",
+          "options": [
+            "Spock",
+            "Data",
+            "McCoy",
+            "Worf"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the famous phrase often said by Spock in Star Trek?",
+          "options": [
+            "Engage",
+            "Make it so",
+            "Beam me up, Scotty",
+            "Live long and prosper"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the spaceship in Star Trek: The Next Generation?",
+          "options": [
+            "USS Enterprise",
+            "USS Voyager",
+            "Deep Space Nine",
+            "USS Defiant"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the captain of the USS Voyager in Star Trek: Voyager?",
+          "options": [
+            "Kathryn Janeway",
+            "James T. Kirk",
+            "Jean-Luc Picard",
+            "Jonathan Archer"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the primary mission of the USS Enterprise in Star Trek: The Original Series?",
+          "options": [
+            "Exploration",
+            "Diplomacy",
+            "Warfare",
+            "Time travel"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the space station in Star Trek: Deep Space Nine?",
+          "options": [
+            "USS Enterprise",
+            "USS Voyager",
+            "Deep Space Nine",
+            "USS Defiant"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is the captain of the USS Defiant in Star Trek: Deep Space Nine?",
+          "options": [
+            "James T. Kirk",
+            "Jean-Luc Picard",
+            "Jonathan Archer",
+            "Benjamin Sisko"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is the captain of the USS Discovery in Star Trek: Discovery?",
+          "options": [
+            "Kathryn Janeway",
+            "Gabriel Lorca",
+            "Philippa Georgiou",
+            "Christopher Pike"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the Vulcan-human hybrid in Star Trek: Enterprise?",
+          "options": [
+            "Spock",
+            "Data",
+            "T'Pol",
+            "Worf"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the first Star Trek film released in 1979?",
+          "options": [
+            "Star Trek: The Motion Picture",
+            "Star Trek II: The Wrath of Khan",
+            "Star Trek III: The Search for Spock",
+            "Star Trek IV: The Voyage Home"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the villainous Borg queen in Star Trek?",
+          "options": [
+            "Lursa",
+            "B'Etor",
+            "Seven of Nine",
+            "The Borg Queen"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is the chief engineer of the USS Enterprise-D in Star Trek: The Next Generation?",
+          "options": [
+            "Geordi La Forge",
+            "Worf",
+            "William Riker",
+            "Beverly Crusher"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Vulcan ambassador in Star Trek: Enterprise?",
+          "options": [
+            "Soval",
+            "Sarek",
+            "T'Pol",
+            "Surak"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the captain of the USS Discovery in Star Trek: Picard?",
+          "options": [
+            "Kathryn Janeway",
+            "Gabriel Lorca",
+            "Jean-Luc Picard",
+            "Christopher Pike"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the alien race that assimilates other species in Star Trek?",
+          "options": [
+            "Klingons",
+            "Romulans",
+            "Cardassians",
+            "Borg"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the Klingon homeworld in Star Trek?",
+          "options": [
+            "Qo'noS",
+            "Vulcan",
+            "Ferenginar",
+            "Andoria"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the first officer of the USS Voyager in Star Trek: Voyager?",
+          "options": [
+            "Tuvok",
+            "Chakotay",
+            "Neelix",
+            "Tom Paris"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the alien species that worships the Founders in Star Trek: Deep Space Nine?",
+          "options": [
+            "Kazon",
+            "Ferengi",
+            "Vorta",
+            "Jem'Hadar"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is the captain of the USS Enterprise-E in the Star Trek films?",
+          "options": [
+            "James T. Kirk",
+            "Jean-Luc Picard",
+            "Jonathan Archer",
+            "Benjamin Sisko"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the android crew member in Star Trek: The Next Generation?",
+          "options": [
+            "Spock",
+            "Data",
+            "McCoy",
+            "Worf"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Who is the chief medical officer of the USS Voyager in Star Trek: Voyager?",
+          "options": [
+            "Kathryn Janeway",
+            "B'Elanna Torres",
+            "Kes",
+            "The Doctor"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which Star Trek series is set in the 22nd century?",
+          "options": [
+            "Star Trek: The Original Series",
+            "Star Trek: The Next Generation",
+            "Star Trek: Voyager",
+            "Star Trek: Enterprise"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the Ferengi bartender on Deep Space Nine?",
+          "options": [
+            "Quark",
+            "Rom",
+            "Nog",
+            "Garak"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the security chief of the USS Enterprise-D in Star Trek: The Next Generation?",
+          "options": [
+            "Geordi La Forge",
+            "Worf",
+            "William Riker",
+            "Beverly Crusher"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the mirror universe counterpart of Captain Kirk in Star Trek?",
+          "options": [
+            "Evil Kirk",
+            "Mirror Kirk",
+            "Terran Kirk",
+            "Captain K"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the Klingon chancellor who is killed by the Duras sisters in Star Trek: The Next Generation?",
+          "options": [
+            "K'mpec",
+            "Gowron",
+            "Kahless",
+            "Martok"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the chief engineer of the USS Voyager in Star Trek: Voyager?",
+          "options": [
+            "Tuvok",
+            "Chakotay",
+            "Neelix",
+            "B'Elanna Torres"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which Star Trek film features the Borg as the primary antagonists?",
+          "options": [
+            "Star Trek II: The Wrath of Khan",
+            "Star Trek: First Contact",
+            "Star Trek Generations",
+            "Star Trek: Insurrection"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the Romulan commander who serves as a recurring antagonist in Star Trek: The Next Generation?",
+          "options": [
+            "Sela",
+            "Tal'Aura",
+            "Toreth",
+            "T'Pol"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the superhuman group led by Khan Noonien Singh in Star Trek: The Original Series?",
+          "options": [
+            "Section 31",
+            "The Dominion",
+            "The Xindi",
+            "The Augments"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which Star Trek series is set on a space station rather than a starship?",
+          "options": [
+            "Star Trek: The Original Series",
+            "Star Trek: The Next Generation",
+            "Star Trek: Voyager",
+            "Star Trek: Deep Space Nine"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the android created by Dr. Noonien Soong in Star Trek: The Next Generation?",
+          "options": [
+            "Data",
+            "Lore",
+            "B-4",
+            "Juliana"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the captain of the USS Enterprise in the Star Trek reboot films?",
+          "options": [
+            "James T. Kirk",
+            "Jean-Luc Picard",
+            "Jonathan Archer",
+            "Benjamin Sisko"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Cardassian spy who infiltrates the crew of Deep Space Nine?",
+          "options": [
+            "Gul Dukat",
+            "Elim Garak",
+            "Weyoun",
+            "Damar"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "Who is the captain of the USS Defiant in Star Trek: Enterprise?",
+          "options": [
+            "Kathryn Janeway",
+            "Jonathan Archer",
+            "Benjamin Sisko",
+            "Jean-Luc Picard"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the artificial intelligence that controls the Borg Collective in Star Trek?",
+          "options": [
+            "Locutus",
+            "The Hive Mind",
+            "V'Ger",
+            "The Borg Queen"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which Star Trek film features the time-traveling villain Nero?",
+          "options": [
+            "Star Trek: First Contact",
+            "Star Trek Into Darkness",
+            "Star Trek Beyond",
+            "Star Trek: Nemesis"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the ancient civilization that left behind advanced technology in the Delta Quadrant in Star Trek: Voyager?",
+          "options": [
+            "The Iconians",
+            "The Preservers",
+            "The Voth",
+            "The Vaadwaur"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the captain of the USS Discovery in Star Trek: Discovery?",
+          "options": [
+            "Michael Burnham",
+            "Gabriel Lorca",
+            "Saru",
+            "Christopher Pike"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the first Vulcan-human hybrid in Star Trek?",
+          "options": [
+            "Spock",
+            "T'Pol",
+            "Saavik",
+            "Sarek"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which Star Trek series is set in the 24th century?",
+          "options": [
+            "Star Trek: The Original Series",
+            "Star Trek: The Next Generation",
+            "Star Trek: Deep Space Nine",
+            "Star Trek: Enterprise"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the Romulan commander who poses as a Vulcan ambassador in Star Trek: Enterprise?",
+          "options": [
+            "Shinzon",
+            "Nero",
+            "V'Las",
+            "Valdore"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is the leader of the Dominion in Star Trek: Deep Space Nine?",
+          "options": [
+            "Gul Dukat",
+            "Weyoun",
+            "Kai Winn",
+            "The Female Changeling"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which Star Trek film features the Klingons as the primary antagonists?",
+          "options": [
+            "Star Trek II: The Wrath of Khan",
+            "Star Trek VI: The Undiscovered Country",
+            "Star Trek: First Contact",
+            "Star Trek: Insurrection"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the Vulcan High Command agent who manipulates events in Star Trek: Enterprise?",
+          "options": [
+            "Sarek",
+            "T'Pau",
+            "Soval",
+            "Surak"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        }
+    ],
+
+    "Supernatural": [
+        {
+          "question": "Who are the two main protagonists in Supernatural?",
+          "options": [
+            "Sam and Dean Winchester",
+            "Castiel and Crowley",
+            "Bobby Singer and Charlie Bradbury",
+            "Lucifer and Michael"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Chevrolet Impala that Sam and Dean drive?",
+          "options": [
+            "Baby",
+            "Ruby",
+            "Crowley",
+            "Meg"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which city is the main setting for Supernatural?",
+          "options": [
+            "Los Angeles",
+            "Chicago",
+            "New York",
+            "Lawrence, Kansas"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the angel who becomes a major character in later seasons?",
+          "options": [
+            "Michael",
+            "Lucifer",
+            "Gabriel",
+            "Castiel"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the profession of Sam and Dean's father, John Winchester?",
+          "options": [
+            "Hunter",
+            "Lawyer",
+            "Mechanic",
+            "Doctor"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the demon who becomes an ally to Sam and Dean?",
+          "options": [
+            "Azazel",
+            "Meg",
+            "Abaddon",
+            "Crowley"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of Sam and Dean's hometown?",
+          "options": [
+            "Lawrence",
+            "Lebanon",
+            "Kansas City",
+            "Singer"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the demon-killing knife in Supernatural?",
+          "options": [
+            "Excalibur",
+            "Ruby's Knife",
+            "The First Blade",
+            "The Colt"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "Who is the King of Hell in Supernatural?",
+          "options": [
+            "Crowley",
+            "Lucifer",
+            "Azazel",
+            "Abaddon"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the monster-hunting device that can detect supernatural beings?",
+          "options": [
+            "The Colt",
+            "Angel Blade",
+            "EMF Meter",
+            "Salt Shotgun"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the demon who possesses Sam in the early seasons?",
+          "options": [
+            "Ruby",
+            "Meg",
+            "Lilith",
+            "Azazel"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the Supernatural spin-off series that focuses on the monster-hunting family?",
+          "options": [
+            "Supernatural: Bloodlines",
+            "The Winchesters",
+            "Wayward Sisters",
+            "Supernatural: Origins"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the archangel who is Lucifer's brother?",
+          "options": [
+            "Michael",
+            "Raphael",
+            "Gabriel",
+            "Uriel"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the King of the Crossroads demons in Supernatural?",
+          "options": [
+            "Crowley",
+            "Lilith",
+            "Azazel",
+            "Meg"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Winchester brothers' mother?",
+          "options": [
+            "Mary",
+            "Jessica",
+            "Lisa",
+            "Ellen"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Supernatural book series within the show?",
+          "options": [
+            "The Demon Diaries",
+            "The Monster Manual",
+            "Supernatural Tales",
+            "The Winchester Chronicles"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the angel who becomes the vessel for Lucifer?",
+          "options": [
+            "Raphael",
+            "Michael",
+            "Gabriel",
+            "Sam"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the alternate universe where angels and demons are at war?",
+          "options": [
+            "Purgatory",
+            "Heaven",
+            "Hell",
+            "The Apocalypse World"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which demon possesses the body of Meg Masters?",
+          "options": [
+            "Abaddon",
+            "Azazel",
+            "Ruby",
+            "Crowley"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the British organization of hunters in Supernatural?",
+          "options": [
+            "Men of Letters",
+            "Hunters United",
+            "The British MoL",
+            "The British Men of Letters"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the witch who becomes an ally to Sam and Dean?",
+          "options": [
+            "Rowena",
+            "Charlie",
+            "Donna",
+            "Amara"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which archangel takes over control of Heaven in the later seasons?",
+          "options": [
+            "Michael",
+            "Raphael",
+            "Gabriel",
+            "Metatron"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the Supernatural book series that chronicles the lives of Sam and Dean?",
+          "options": [
+            "The Supernatural Files",
+            "The Winchester Journals",
+            "The Hunting Diaries",
+            "The Winchester Gospels"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the vampire who becomes a recurring character in Supernatural?",
+          "options": [
+            "Benny",
+            "Lenore",
+            "Gordon",
+            "Meg"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the creature that Sam and Dean initially believe is their mother?",
+          "options": [
+            "The Leviathans",
+            "The Alpha Vampire",
+            "The Khan Worm",
+            "The Shapeshifter"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the demon who is Crowley's mother?",
+          "options": [
+            "Lilith",
+            "Abaddon",
+            "Rowena",
+            "Ruby"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which archangel is responsible for starting the Apocalypse in Supernatural?",
+          "options": [
+            "Michael",
+            "Lucifer",
+            "Raphael",
+            "Gabriel"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the pagan god who is the god of mischief and chaos?",
+          "options": [
+            "Loki",
+            "Odin",
+            "Baldur",
+            "Fenrir"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the Queen of Hell in Supernatural?",
+          "options": [
+            "Ruby",
+            "Lilith",
+            "Abaddon",
+            "Rowena"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the powerful artifact that can open a door to any location?",
+          "options": [
+            "The First Blade",
+            "The Colt",
+            "The Mark of Cain",
+            "The Key of Solomon"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the prophet who can see the future in Supernatural?",
+          "options": [
+            "Kevin Tran",
+            "Chuck Shurley",
+            "Eileen Leahy",
+            "Amara"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the alternate reality where Sam and Dean are actors in a TV show called Supernatural?",
+          "options": [
+            "The Bizarro World",
+            "The Trickster's Playground",
+            "The Fairy Tale Realm",
+            "The French Mistake"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the entity that represents the darkness in Supernatural?",
+          "options": [
+            "Amara",
+            "Rowena",
+            "Tiamat",
+            "Lilith"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the powerful witch who is a member of the Grand Coven?",
+          "options": [
+            "Rowena",
+            "Charlie",
+            "Donna",
+            "Jody"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which archangel takes over control of Hell in the later seasons?",
+          "options": [
+            "Michael",
+            "Lucifer",
+            "Raphael",
+            "Metatron"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the deity that the Winchester brothers encounter in the episode 'Hammer of the Gods'?",
+          "options": [
+            "Zeus",
+            "Odin",
+            "Hades",
+            "Thor"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is the King of the Crossroads demons in Supernatural?",
+          "options": [
+            "Azazel",
+            "Lilith",
+            "Crowley",
+            "Meg"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the demon who manipulates Sam into drinking demon blood?",
+          "options": [
+            "Azazel",
+            "Alastair",
+            "Meg",
+            "Crowley"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the creature that takes the form of people's worst fears in Supernatural?",
+          "options": [
+            "The Wendigo",
+            "The Leviathans",
+            "The Khan Worm",
+            "The Shapeshifter"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which angel kills the demon Lilith in order to break the 66 Seals?",
+          "options": [
+            "Gabriel",
+            "Raphael",
+            "Metatron",
+            "Sam"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the secret society of hunters that Sam and Dean encounter in the episode 'Slumber Party'?",
+          "options": [
+            "The Thule Society",
+            "The Men of Letters",
+            "The British MoL",
+            "The Order of the Cross"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "Who is the witch who casts the spell to remove the Mark of Cain from Dean's arm?",
+          "options": [
+            "Rowena",
+            "Charlie",
+            "Donna",
+            "Jody"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the creature that feeds on human hearts and has a connection to Sam and Dean?",
+          "options": [
+            "The Wendigo",
+            "The Alpha Vampire",
+            "The Rugaru",
+            "The Djinn"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which angel becomes the vessel for the archangel Michael in the later seasons?",
+          "options": [
+            "Sam",
+            "Dean",
+            "Castiel",
+            "Adam"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the weapon that can kill anything in existence?",
+          "options": [
+            "The Colt",
+            "The First Blade",
+            "The Lance of Michael",
+            "The Spear of Destiny"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the ritual that can bind Death and control him?",
+          "options": [
+            "The Demon's Bargain",
+            "The Book of the Damned",
+            "The Mark of Cain",
+            "The Sacrifice of Souls"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        }
+    ],
+    
+    "Doctor Who": [
+        {
+          "question": "Who is the main character and protagonist of Doctor Who?",
+          "options": [
+            "The Doctor",
+            "The Master",
+            "Rose Tyler",
+            "Amy Pond"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the Doctor's preferred method of transportation?",
+          "options": [
+            "The TARDIS",
+            "The Millennium Falcon",
+            "The DeLorean",
+            "The Enterprise"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the Doctor's time-traveling spaceship disguised as a British police box?",
+          "options": [
+            "TARDIS",
+            "ARDIS",
+            "SARDIS",
+            "PARDIS"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which actor portrayed the Tenth Doctor?",
+          "options": [
+            "David Tennant",
+            "Matt Smith",
+            "Christopher Eccleston",
+            "Peter Capaldi"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the Doctor's arch-nemesis?",
+          "options": [
+            "Daleks",
+            "Cybermen",
+            "Weeping Angels",
+            "The Master"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the Doctor's catchphrase?",
+          "options": [
+            "Fantastic!",
+            "Geronimo!",
+            "Allons-y!",
+            "Exterminate!"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is the Doctor's first companion in the rebooted series?",
+          "options": [
+            "Rose Tyler",
+            "Amy Pond",
+            "Clara Oswald",
+            "Donna Noble"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the Doctor's home planet called?",
+          "options": [
+            "Gallifrey",
+            "Skaro",
+            "Trenzalore",
+            "Karn"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the Doctor's eleventh incarnation?",
+          "options": [
+            "David Tennant",
+            "Matt Smith",
+            "Christopher Eccleston",
+            "Peter Capaldi"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "Who is the Doctor's current companion as of 2021?",
+          "options": [
+            "Graham O'Brien",
+            "Ryan Sinclair",
+            "Yasmin Khan",
+            "Clara Oswald"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the Doctor's sonic screwdriver used for?",
+          "options": [
+            "Opening doors",
+            "Repairing machinery",
+            "Scanning for alien life",
+            "All of the above"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is the Doctor's wife?",
+          "options": [
+            "River Song",
+            "Martha Jones",
+            "Sarah Jane Smith",
+            "Donna Noble"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the current showrunner of Doctor Who?",
+          "options": [
+            "Russell T Davies",
+            "Steven Moffat",
+            "Chris Chibnall",
+            "Mark Gatiss"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which actor portrayed the Ninth Doctor?",
+          "options": [
+            "Christopher Eccleston",
+            "David Tennant",
+            "Matt Smith",
+            "Peter Capaldi"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the Doctor's real name?",
+          "options": [
+            "The Doctor",
+            "John Smith",
+            "Theta Sigma",
+            "It's never been revealed"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is the Doctor's oldest and most formidable enemy?",
+          "options": [
+            "Daleks",
+            "Cybermen",
+            "The Master",
+            "Weeping Angels"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the Doctor's home planet known for?",
+          "options": [
+            "Advanced Time Travel Technology",
+            "Peace and Harmony",
+            "Brave Warriors",
+            "Time-Locked Existence"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which Doctor is known for wearing a bowtie and fez?",
+          "options": [
+            "Eleventh Doctor",
+            "Twelfth Doctor",
+            "Tenth Doctor",
+            "Ninth Doctor"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the Doctor's oldest living relative?",
+          "options": [
+            "The Rani",
+            "Susan Foreman",
+            "Romana",
+            "The Meddling Monk"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which alien species is known for their ability to regenerate?",
+          "options": [
+            "Time Lords",
+            "Sontarans",
+            "Slitheen",
+            "Weeping Angels"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who was the first actor to portray the Doctor in the original series?",
+          "options": [
+            "William Hartnell",
+            "Patrick Troughton",
+            "Jon Pertwee",
+            "Tom Baker"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Doctor's home city on Gallifrey?",
+          "options": [
+            "Arcadia",
+            "Gallifrey City",
+            "New New York",
+            "Skaro"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which actor portrayed the War Doctor in the 50th-anniversary special episode 'The Day of the Doctor'?",
+          "options": [
+            "David Tennant",
+            "John Hurt",
+            "Paul McGann",
+            "Tom Baker"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the Doctor's second heart known as?",
+          "options": [
+            "Binary Heart",
+            "Cardiovascular Duplication",
+            "Time Lord Heart",
+            "Pulse of Time"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is the Doctor's longest-serving companion in the rebooted series?",
+          "options": [
+            "Rose Tyler",
+            "Amy Pond",
+            "Clara Oswald",
+            "Donna Noble"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the Doctor's home planet's original name before it was destroyed?",
+          "options": [
+            "Skaro",
+            "Mondas",
+            "Karn",
+            "Malcassairo"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Doctor's robotic dog companion?",
+          "options": [
+            "K-9",
+            "R2-D2",
+            "BB-8",
+            "Chewbacca"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the organization that the Doctor's daughter, Jenny, forms?",
+          "options": [
+            "UNIT",
+            "TORCHWOOD",
+            "Sontaran Empire",
+            "The Doctor's Army"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which companion meets the Doctor in a shop called 'Henrik's'?",
+          "options": [
+            "Rose Tyler",
+            "Donna Noble",
+            "Martha Jones",
+            "Clara Oswald"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the Doctor's TARDIS bigger on the inside due to?",
+          "options": [
+            "Time Lord Technology",
+            "Dimensional Engineering",
+            "Psychic Circuitry",
+            "Transdimensional Engineering"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is the first female incarnation of the Doctor?",
+          "options": [
+            "Rose Tyler",
+            "Clara Oswald",
+            "Martha Jones",
+            "Jodie Whittaker"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is the creator and showrunner of the modern Doctor Who series?",
+          "options": [
+            "Russell T Davies",
+            "Steven Moffat",
+            "Chris Chibnall",
+            "Mark Gatiss"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who was the Doctor's companion known as 'the girl who waited'?",
+          "options": [
+            "Amy Pond",
+            "Clara Oswald",
+            "Donna Noble",
+            "River Song"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which Doctor was known for his incredibly long scarf?",
+          "options": [
+            "Fourth Doctor",
+            "Seventh Doctor",
+            "Ninth Doctor",
+            "Eleventh Doctor"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who played the role of the Ninth Doctor?",
+          "options": [
+            "David Tennant",
+            "Christopher Eccleston",
+            "Matt Smith",
+            "Peter Capaldi"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which iconic monster made its first appearance in the episode 'Blink'?",
+          "options": [
+            "Daleks",
+            "Cybermen",
+            "Weeping Angels",
+            "Sontarans"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the Doctor's real name revealed to be in the episode 'The Timeless Children'?",
+          "options": [
+            "The Doctor",
+            "Theta Sigma",
+            "The Other",
+            "It remains a mystery"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which actor portrayed the first Doctor in the 2017 Christmas special 'Twice Upon a Time'?",
+          "options": [
+            "David Bradley",
+            "William Hartnell",
+            "Peter Capaldi",
+            "Matt Smith"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the Doctor's nemesis, Missy, short for?",
+          "options": [
+            "Mistress",
+            "Missile",
+            "Miscreant",
+            "Mistake"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the Doctor's first wife, introduced in the episode 'The Doctor's Wife'?",
+          "options": [
+            "River Song",
+            "Clara Oswald",
+            "Amy Pond",
+            "Donna Noble"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Doctor's granddaughter?",
+          "options": [
+            "Susan Foreman",
+            "Rose Tyler",
+            "Martha Jones",
+            "Donna Noble"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Time Lord society to which the Doctor belongs?",
+          "options": [
+            "The Time Lords of Gallifrey",
+            "The Council of Time",
+            "The High Council",
+            "The Order of the Time Lords"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the Doctor's companion known as 'the impossible girl'?",
+          "options": [
+            "Clara Oswald",
+            "Amy Pond",
+            "Rose Tyler",
+            "Donna Noble"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which Doctor regenerated into the War Doctor?",
+          "options": [
+            "Eighth Doctor",
+            "Ninth Doctor",
+            "Tenth Doctor",
+            "Eleventh Doctor"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Doctor's home planet's ruling council?",
+          "options": [
+            "The High Council of Gallifrey",
+            "The Supreme Council of Time Lords",
+            "The Gallifreyan Parliament",
+            "The Time Lord Assembly"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which actress portrayed the character Missy?",
+          "options": [
+            "Michelle Gomez",
+            "Alex Kingston",
+            "Catherine Tate",
+            "Freema Agyeman"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the founder and leader of Torchwood?",
+          "options": [
+            "Jack Harkness",
+            "Martha Jones",
+            "Gwen Cooper",
+            "Yvonne Hartman"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the Doctor's home planet's red grass plains?",
+          "options": [
+            "The Red Fields of Trenzalore",
+            "The Crimson Plains of Skaro",
+            "The Scarlet Wastes of Karn",
+            "The Vermillion Fields of Gallifrey"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        }
+    ],
+
+    "The Big Bang Theory": [
+        {
+          "question": "Who is Leonard's roommate and best friend?",
+          "options": [
+            "Sheldon",
+            "Raj",
+            "Howard",
+            "Penny"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character has a phobia of germs and physical contact?",
+          "options": [
+            "Sheldon",
+            "Leonard",
+            "Howard",
+            "Raj"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the building where the main characters live?",
+          "options": [
+            "Pasadena Tower",
+            "Caltech Residence",
+            "Sheldon's Apartment",
+            "The Cheesecake Factory"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who lives across the hall from Leonard and Sheldon?",
+          "options": [
+            "Penny",
+            "Amy",
+            "Bernadette",
+            "Emily"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is an aerospace engineer?",
+          "options": [
+            "Howard",
+            "Raj",
+            "Sheldon",
+            "Leonard"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is Sheldon's catchphrase?",
+          "options": [
+            "Bazinga!",
+            "Wubba Lubba Dub Dub!",
+            "You're in my spot!",
+            "Penny, Penny, Penny"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is Sheldon's girlfriend/wife in the later seasons of the series?",
+          "options": [
+            "Amy",
+            "Bernadette",
+            "Penny",
+            "Emily"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the comic book store frequently visited by the characters?",
+          "options": [
+            "Comic Central",
+            "Superhero Haven",
+            "The Nerdery",
+            "Stuart's Comic Book Store"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character is an astrophysicist?",
+          "options": [
+            "Leonard",
+            "Raj",
+            "Howard",
+            "Sheldon"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the university where the main characters work?",
+          "options": [
+            "Stanford University",
+            "Harvard University",
+            "California Institute of Technology (Caltech)",
+            "Massachusetts Institute of Technology (MIT)"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is the only one of the main characters without a Ph.D.?",
+          "options": [
+            "Penny",
+            "Amy",
+            "Bernadette",
+            "Emily"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What instrument does Howard play?",
+          "options": [
+            "Guitar",
+            "Drums",
+            "Violin",
+            "Keytar"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character has a dog named Cinnamon?",
+          "options": [
+            "Raj",
+            "Leonard",
+            "Howard",
+            "Penny"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the cafeteria where the characters often have lunch?",
+          "options": [
+            "The Cheesecake Factory",
+            "The Big Bang Burger Bar",
+            "The Comic Book Café",
+            "The Caltech Canteen"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is Leonard's on-and-off girlfriend throughout the series?",
+          "options": [
+            "Amy",
+            "Penny",
+            "Bernadette",
+            "Emily"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character has a collection of action figures and comic books?",
+          "options": [
+            "Sheldon",
+            "Raj",
+            "Howard",
+            "Leonard"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character has a twin sister named Missy?",
+          "options": [
+            "Sheldon",
+            "Leonard",
+            "Raj",
+            "Howard"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of Sheldon's favorite comic book superhero?",
+          "options": [
+            "Superman",
+            "Batman",
+            "Spider-Man",
+            "The Flash"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Who is Penny's ex-boyfriend and the leader of the Koothrappali gang?",
+          "options": [
+            "Zack",
+            "Stuart",
+            "Barry",
+            "Kurt"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is a microbiologist?",
+          "options": [
+            "Penny",
+            "Amy",
+            "Bernadette",
+            "Emily"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of Howard's mother, who is often heard but never seen?",
+          "options": [
+            "Debbie",
+            "Susan",
+            "Esther",
+            "Mrs. Wolowitz"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character has a brother named George?",
+          "options": [
+            "Leonard",
+            "Sheldon",
+            "Raj",
+            "Howard"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character works as a waitress at The Cheesecake Factory?",
+          "options": [
+            "Amy",
+            "Penny",
+            "Bernadette",
+            "Emily"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Who is Raj's girlfriend in the later seasons of the series?",
+          "options": [
+            "Amy",
+            "Bernadette",
+            "Penny",
+            "Emily"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of Sheldon's online username?",
+          "options": [
+            "DrSheldonCooper",
+            "TheoreticalGenius",
+            "Sheldor",
+            "SheldonTheGreat"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character has a girlfriend named Emily?",
+          "options": [
+            "Raj",
+            "Leonard",
+            "Howard",
+            "Sheldon"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the university where the main characters work and study?",
+          "options": [
+            "Stanford University",
+            "Harvard University",
+            "California Institute of Technology (Caltech)",
+            "Massachusetts Institute of Technology (MIT)"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character has a master's degree in engineering?",
+          "options": [
+            "Raj",
+            "Howard",
+            "Leonard",
+            "Sheldon"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the game that Sheldon, Leonard, Howard, and Raj often play?",
+          "options": [
+            "Dungeons & Dragons",
+            "Mystic Warlords of Ka'a",
+            "Rock-Paper-Scissors-Lizard-Spock",
+            "Magic: The Gathering"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character is a neurobiologist?",
+          "options": [
+            "Amy",
+            "Penny",
+            "Bernadette",
+            "Emily"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who did Leonard have a short-lived marriage with?",
+          "options": [
+            "Penny",
+            "Amy",
+            "Bernadette",
+            "Priya"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character is known for his distinctive fashion style and hairstyle?",
+          "options": [
+            "Sheldon",
+            "Howard",
+            "Raj",
+            "Leonard"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of Sheldon's favorite spot on the couch?",
+          "options": [
+            "The Sheldon Zone",
+            "The Cooper Corner",
+            "The Cushion Cosmos",
+            "The Sweet Spot"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character is lactose intolerant?",
+          "options": [
+            "Sheldon",
+            "Leonard",
+            "Raj",
+            "Howard"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the video game that Penny gets addicted to?",
+          "options": [
+            "World of Warcraft",
+            "Halo",
+            "Call of Duty",
+            "Age of Conan"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who won the Nobel Prize in Physics in the final season of the series?",
+          "options": [
+            "Sheldon and Amy",
+            "Leonard and Penny",
+            "Howard and Bernadette",
+            "Raj and Emily"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character has a fear of birds?",
+          "options": [
+            "Sheldon",
+            "Raj",
+            "Howard",
+            "Leonard"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the comic book store owner?",
+          "options": [
+            "Zack",
+            "Stuart",
+            "Barry",
+            "Kurt"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character is an accomplished violinist?",
+          "options": [
+            "Sheldon",
+            "Leonard",
+            "Howard",
+            "Raj"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of Howard's father?",
+          "options": [
+            "Mike",
+            "Sam",
+            "Gene",
+            "Richard"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character appeared in every episode of the series?",
+          "options": [
+            "Sheldon",
+            "Leonard",
+            "Penny",
+            "Howard"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of Raj's dog?",
+          "options": [
+            "Cinnamon",
+            "Bailey",
+            "Snowball",
+            "Rufus"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of Sheldon's meemaw?",
+          "options": [
+            "Eleanor",
+            "Connie",
+            "Mabel",
+            "June"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character has a PhD in astrophysics?",
+          "options": [
+            "Sheldon",
+            "Leonard",
+            "Howard",
+            "Raj"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character had a relationship with Stuart, the comic book store owner?",
+          "options": [
+            "Amy",
+            "Penny",
+            "Bernadette",
+            "Emily"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character has a brother named Randall?",
+          "options": [
+            "Leonard",
+            "Sheldon",
+            "Raj",
+            "Howard"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of Penny's hometown?",
+          "options": [
+            "Omaha",
+            "Lincoln",
+            "Des Moines",
+            "Sacramento"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        }
+    ],
+
+    "Stranger Things": [
+        {
+          "question": "In which decade is the TV series 'Stranger Things' set?",
+          "options": [
+            "1970s",
+            "1980s",
+            "1990s",
+            "2000s"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the fictional town where 'Stranger Things' is set?",
+          "options": [
+            "Hawkins",
+            "Hawkeye",
+            "Harper",
+            "Harrington"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the telekinetic girl with special abilities in the series?",
+          "options": [
+            "Max",
+            "Nancy",
+            "Eleven",
+            "Joyce"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the group of friends in 'Stranger Things'?",
+          "options": [
+            "The A-Team",
+            "The Power Rangers",
+            "The Losers' Club",
+            "The Party"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character is the police chief of Hawkins?",
+          "options": [
+            "Billy",
+            "Jonathan",
+            "Hopper",
+            "Mike"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of Will Byers' mother?",
+          "options": [
+            "Karen",
+            "Sarah",
+            "Joyce",
+            "Robin"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character is known for their love of Eggo waffles?",
+          "options": [
+            "Steve",
+            "Dustin",
+            "Lucas",
+            "Eleven"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the Upside Down's monstrous creature in the first season?",
+          "options": [
+            "The Demogorgon",
+            "The Mind Flayer",
+            "The Shadow Monster",
+            "The Demodogs"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What game do the boys play in their basement in the first season?",
+          "options": [
+            "Dungeons & Dragons",
+            "Monopoly",
+            "Risk",
+            "Chess"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of Mike Wheeler's older sister?",
+          "options": [
+            "Nancy",
+            "Max",
+            "Robin",
+            "Erica"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the arcade in Hawkins where the characters often hang out?",
+          "options": [
+            "Starcade",
+            "Funland",
+            "The Palace",
+            "Hawkins Arcade"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character has a special connection with the Upside Down?",
+          "options": [
+            "Dustin",
+            "Jonathan",
+            "Joyce",
+            "Will"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the telekinetic girl's adoptive father?",
+          "options": [
+            "Dr. Owens",
+            "Dr. Brenner",
+            "Dr. Wheeler",
+            "Dr. Cooper"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the creature that replaces people in the second season?",
+          "options": [
+            "The Mind Flayer",
+            "The Demogorgon",
+            "The Demodogs",
+            "The Shadow Monster"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the group of government agents in 'Stranger Things'?",
+          "options": [
+            "The Men in Black",
+            "The Shadowhunters",
+            "The Upside Downers",
+            "The Hawkins Lab"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the arcade game that Dustin befriends in the second season?",
+          "options": [
+            "Pac-Man",
+            "Centipede",
+            "Dig Dug",
+            "Galaga"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character has a secret crush on Mike in the first season?",
+          "options": [
+            "Max",
+            "Nancy",
+            "Joyce",
+            "Eleven"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the mysterious organization conducting experiments in Hawkins?",
+          "options": [
+            "Hawkins Lab",
+            "Hawkins Power & Light",
+            "Hawkins Industries",
+            "Hawkins Research Facility"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the monster that possesses Will in the second season?",
+          "options": [
+            "The Demogorgon",
+            "The Mind Flayer",
+            "The Shadow Monster",
+            "The Demodogs"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character has a special bond with Dart, the creature from the Upside Down?",
+          "options": [
+            "Lucas",
+            "Dustin",
+            "Mike",
+            "Will"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the journalist who investigates the events in Hawkins?",
+          "options": [
+            "Murray",
+            "Bob",
+            "Billy",
+            "Ted"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is revealed to have psychic abilities in the second season?",
+          "options": [
+            "Lucas",
+            "Max",
+            "Mike",
+            "Will"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the secret government project responsible for the creation of Eleven?",
+          "options": [
+            "Project Blue Book",
+            "Project MKUltra",
+            "Project Phoenix",
+            "Project Stargate"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character is known for his iconic catchphrase 'Friends don't lie'?",
+          "options": [
+            "Lucas",
+            "Dustin",
+            "Mike",
+            "Will"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of Eleven's adoptive sister with special abilities?",
+          "options": [
+            "Kali",
+            "Robin",
+            "Erica",
+            "Max"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the department store in Hawkins where several key scenes take place?",
+          "options": [
+            "Starcourt Mall",
+            "Hawkins Mall",
+            "Hawkins Department Store",
+            "Hawkins Shopping Center"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is Will's older brother?",
+          "options": [
+            "Jonathan",
+            "Mike",
+            "Dustin",
+            "Lucas"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the secret Russian base beneath Starcourt Mall in the third season?",
+          "options": [
+            "Operation Upside Down",
+            "Project Blue Book",
+            "Hawkins Lab",
+            "Starcourt Bunker"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character develops a close friendship with Steve Harrington in the second season?",
+          "options": [
+            "Billy",
+            "Max",
+            "Jonathan",
+            "Nancy"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the secret government agency tasked with tracking supernatural events?",
+          "options": [
+            "The Department of Paranormal Affairs",
+            "The Hawkins Lab",
+            "The Stranger Things Task Force",
+            "The Hawkins National Laboratory"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the alternate dimension parallel to the real world in 'Stranger Things'?",
+          "options": [
+            "The Upside Down",
+            "The Dark World",
+            "The Other Side",
+            "The Shadow Realm"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character sacrifices himself to save the others in the final season?",
+          "options": [
+            "Hopper",
+            "Mike",
+            "Will",
+            "Dustin"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the monster that appears in the third season, controlled by the Mind Flayer?",
+          "options": [
+            "The Demogorgon",
+            "The Shadow Monster",
+            "The Mind Flayer",
+            "The Demodogs"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the high school attended by the main characters in 'Stranger Things'?",
+          "options": [
+            "Hawkins High School",
+            "Hawkins Central High",
+            "Hawkins West High",
+            "Hawkins Prep Academy"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is revealed to be gay in the third season?",
+          "options": [
+            "Steve",
+            "Billy",
+            "Jonathan",
+            "Will"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the Russian scientist who helps the characters in the third season?",
+          "options": [
+            "Dr. Owens",
+            "Dr. Brenner",
+            "Dr. Zharkov",
+            "Dr. Alexei"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character has the ability to see into the future?",
+          "options": [
+            "Billy",
+            "Eleven",
+            "Max",
+            "Robin"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the secret code used by the characters to communicate in the second season?",
+          "options": [
+            "Alpha-Bravo",
+            "Operation Scoop Troop",
+            "Code Red",
+            "Radio Silence"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the conspiracy theorist who becomes involved in uncovering the truth about Hawkins?",
+          "options": [
+            "Murray",
+            "Bob",
+            "Ted",
+            "Billy"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the song performed by Dustin and Suzie in the third season?",
+          "options": [
+            "Never Ending Story",
+            "Total Eclipse of the Heart",
+            "Don't Stop Believin'",
+            "Every Breath You Take"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is possessed by the Mind Flayer in the second season?",
+          "options": [
+            "Billy",
+            "Will",
+            "Mike",
+            "Lucas"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the carnival ride that Eleven and Max visit in the third season?",
+          "options": [
+            "Hawkins Funland",
+            "Carnival of Curiosities",
+            "Starcourt Amusement Park",
+            "The Palace of Illusions"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character is revealed to have an older sister in the third season?",
+          "options": [
+            "Dustin",
+            "Lucas",
+            "Mike",
+            "Will"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the drug administered to Eleven in the laboratory to enhance her powers?",
+          "options": [
+            "Supra",
+            "Elevate",
+            "Enhance",
+            "Maximizer"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character discovers that he has a terminal illness in the third season?",
+          "options": [
+            "Steve",
+            "Billy",
+            "Jonathan",
+            "Hopper"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the town mayor in 'Stranger Things'?",
+          "options": [
+            "Larry Kline",
+            "Tom Hanks",
+            "Jim Hopper",
+            "Bruce Lowe"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        }
+    ],
+
+    "Star Wars": [
+        {
+          "question": "Who is Luke Skywalker's sister?",
+          "options": [
+            "Leia Organa",
+            "Rey",
+            "Padmé Amidala",
+            "Ahsoka Tano"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the main antagonist in the original trilogy?",
+          "options": [
+            "Darth Vader",
+            "Emperor Palpatine",
+            "Kylo Ren",
+            "General Grievous"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the weapon used by Jedi Knights?",
+          "options": [
+            "Lightsaber",
+            "Blaster",
+            "Bowcaster",
+            "Ion Blaster"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the famous quote associated with the Star Wars franchise?",
+          "options": [
+            "May the Force be with you",
+            "Live long and prosper",
+            "I'll be back",
+            "May the odds be ever in your favor"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the captain of the Millennium Falcon?",
+          "options": [
+            "Han Solo",
+            "Chewbacca",
+            "Lando Calrissian",
+            "Obi-Wan Kenobi"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the desert planet in the original Star Wars film?",
+          "options": [
+            "Tatooine",
+            "Hoth",
+            "Endor",
+            "Jakku"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who trained Luke Skywalker in the ways of the Jedi?",
+          "options": [
+            "Obi-Wan Kenobi",
+            "Yoda",
+            "Qui-Gon Jinn",
+            "Mace Windu"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of Han Solo's ship?",
+          "options": [
+            "Millennium Falcon",
+            "Star Destroyer",
+            "X-wing",
+            "TIE Fighter"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the wise Jedi Master known for his unique way of speaking?",
+          "options": [
+            "Yoda",
+            "Darth Maul",
+            "Count Dooku",
+            "Qui-Gon Jinn"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the evil Sith Lord who serves as the main antagonist in the prequel trilogy?",
+          "options": [
+            "Darth Maul",
+            "Darth Sidious",
+            "Darth Vader",
+            "Darth Tyranus"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the peaceful home planet of the Wookiee species?",
+          "options": [
+            "Kashyyyk",
+            "Naboo",
+            "Endor",
+            "Dagobah"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the droid companion of Luke Skywalker?",
+          "options": [
+            "R2-D2",
+            "C-3PO",
+            "BB-8",
+            "K-2SO"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the organization that opposes the Galactic Empire?",
+          "options": [
+            "Rebel Alliance",
+            "First Order",
+            "Resistance",
+            "Trade Federation"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the Sith Lord known as Darth Vader?",
+          "options": [
+            "Anakin Skywalker",
+            "Luke Skywalker",
+            "Obi-Wan Kenobi",
+            "Mace Windu"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the furry species that Chewbacca belongs to?",
+          "options": [
+            "Wookiee",
+            "Ewok",
+            "Jawa",
+            "Togruta"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the pilot of the X-wing starfighter and a skilled leader in the Rebel Alliance?",
+          "options": [
+            "Luke Skywalker",
+            "Poe Dameron",
+            "Anakin Skywalker",
+            "Wedge Antilles"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the bounty hunter who captures Han Solo in 'The Empire Strikes Back'?",
+          "options": [
+            "Boba Fett",
+            "Jango Fett",
+            "Dengar",
+            "Bossk"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the mastermind behind the creation of the Death Star?",
+          "options": [
+            "Wilhuff Tarkin",
+            "Darth Sidious",
+            "Director Orson Krennic",
+            "Galen Erso"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the planet destroyed by the Death Star in the original 'Star Wars' film?",
+          "options": [
+            "Alderaan",
+            "Tatooine",
+            "Coruscant",
+            "Naboo"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the leader of the Separatist Alliance during the Clone Wars?",
+          "options": [
+            "Count Dooku",
+            "General Grievous",
+            "Nute Gunray",
+            "Poggle the Lesser"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which planet is the main setting for 'The Force Awakens'?",
+          "options": [
+            "Jakku",
+            "D'Qar",
+            "Ahch-To",
+            "Takodana"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of Anakin Skywalker's Padawan apprentice in 'The Clone Wars' animated series?",
+          "options": [
+            "Ahsoka Tano",
+            "Barriss Offee",
+            "Shaak Ti",
+            "Luminara Unduli"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which actor portrays Obi-Wan Kenobi in the prequel trilogy?",
+          "options": [
+            "Ewan McGregor",
+            "Alec Guinness",
+            "Liam Neeson",
+            "Hayden Christensen"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the organization that builds and maintains the droids in the 'Star Wars' universe?",
+          "options": [
+            "Cybernetics Corporation",
+            "DroidWorks",
+            "Galactic Robotics",
+            "Industrial Automaton"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is the leader of the Knights of Ren in the sequel trilogy?",
+          "options": [
+            "Kylo Ren",
+            "Snoke",
+            "General Hux",
+            "Captain Phasma"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the forest moon that serves as the base for the Rebel Alliance in 'Return of the Jedi'?",
+          "options": [
+            "Endor",
+            "Yavin",
+            "Kashyyyk",
+            "Mustafar"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the Rebel Alliance's ace pilot who destroys the second Death Star in 'Return of the Jedi'?",
+          "options": [
+            "Lando Calrissian",
+            "Wedge Antilles",
+            "Poe Dameron",
+            "Nien Nunb"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the city-planet that serves as the capital of the Galactic Republic?",
+          "options": [
+            "Coruscant",
+            "Bespin",
+            "Naboo",
+            "Kamino"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the leader of the Gungan species in 'The Phantom Menace'?",
+          "options": [
+            "Boss Nass",
+            "Jar Jar Binks",
+            "Rugor Nass",
+            "Captain Tarpals"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Sith apprentice to Darth Sidious in 'Revenge of the Sith'?",
+          "options": [
+            "Darth Maul",
+            "Darth Tyranus",
+            "Darth Vader",
+            "Darth Plagueis"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which bounty hunter is known for wearing Mandalorian armor and carrying a jetpack?",
+          "options": [
+            "Boba Fett",
+            "Jango Fett",
+            "Cad Bane",
+            "Zam Wesell"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the ancient Sith home planet?",
+          "options": [
+            "Korriban",
+            "Dathomir",
+            "Exegol",
+            "Malachor V"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the ancient Sith Lord who is considered the founder of the Sith Order?",
+          "options": [
+            "Darth Bane",
+            "Darth Revan",
+            "Darth Nihilus",
+            "Darth Malgus"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the Jedi Master who discovered the secret to immortality and became one with the Force?",
+          "options": [
+            "Qui-Gon Jinn",
+            "Mace Windu",
+            "Obi-Wan Kenobi",
+            "Yoda"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the famous podracer who wins the Boonta Eve Classic in 'The Phantom Menace'?",
+          "options": [
+            "Sebulba",
+            "Anakin Skywalker",
+            "Ben Quadinaros",
+            "Gasgano"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "Who is the actor behind the iconic voice of Darth Vader?",
+          "options": [
+            "James Earl Jones",
+            "David Prowse",
+            "Hayden Christensen",
+            "Frank Oz"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Wookiee home planet?",
+          "options": [
+            "Kashyyyk",
+            "Endor",
+            "Naboo",
+            "Hoth"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which Star Wars film was directed by Rian Johnson?",
+          "options": [
+            "The Last Jedi",
+            "The Force Awakens",
+            "Rogue One",
+            "Solo: A Star Wars Story"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the ancient Jedi homeworld?",
+          "options": [
+            "Tython",
+            "Ilum",
+            "Lothal",
+            "Ahch-To"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the first character to speak in the original 1977 'Star Wars' film?",
+          "options": [
+            "C-3PO",
+            "R2-D2",
+            "Princess Leia",
+            "Darth Vader"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the Mandalorian bounty hunter in the Disney+ series 'The Mandalorian'?",
+          "options": [
+            "Din Djarin",
+            "Boba Fett",
+            "Jango Fett",
+            "Cobb Vanth"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is the mother of Anakin Skywalker?",
+          "options": [
+            "Shmi Skywalker",
+            "Padmé Amidala",
+            "Mara Jade",
+            "Aayla Secura"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the ancient Sith artifact that contains the spirits of Sith Lords?",
+          "options": [
+            "Holocron",
+            "Dark Side Talisman",
+            "Sith Mask",
+            "Sith Holocron"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character is known for the line 'It's a trap!'?",
+          "options": [
+            "Admiral Ackbar",
+            "Lando Calrissian",
+            "Han Solo",
+            "Mon Mothma"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the criminal organization led by Dryden Vos in 'Solo: A Star Wars Story'?",
+          "options": [
+            "Crimson Dawn",
+            "Black Sun",
+            "Shadow Collective",
+            "Pyke Syndicate"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the actor behind the character Han Solo in the original trilogy?",
+          "options": [
+            "Harrison Ford",
+            "Mark Hamill",
+            "Carrie Fisher",
+            "Peter Mayhew"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the ancient Jedi weapon that is passed down through generations?",
+          "options": [
+            "Lightsaber",
+            "Blaster",
+            "Ion Blaster",
+            "Force Pike"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character is responsible for destroying the Death Star in 'A New Hope'?",
+          "options": [
+            "Luke Skywalker",
+            "Han Solo",
+            "Leia Organa",
+            "Wedge Antilles"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        }
+    ],
+    
+    "Stargate": [
+        {
+          "question": "What is the name of the main team in 'Stargate SG-1'?",
+          "options": [
+            "SG-1",
+            "SG-2",
+            "SG-3",
+            "SG-4"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "In 'Stargate Atlantis', the team discovers a city in another galaxy. What is the name of that city?",
+          "options": [
+            "Atlantis",
+            "Asgard",
+            "Abydos",
+            "Earth"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the ancient alien race in 'Stargate SG-1'?",
+          "options": [
+            "Goa'uld",
+            "Wraith",
+            "Replicators",
+            "Ancients"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the primary mode of transportation between planets in the Stargate universe?",
+          "options": [
+            "Ships",
+            "Jumpers",
+            "Stargates",
+            "Transporters"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is the leader of the Goa'uld in 'Stargate SG-1'?",
+          "options": [
+            "Apophis",
+            "Anubis",
+            "Ra",
+            "Ba'al"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the military base where the Stargate is located on Earth?",
+          "options": [
+            "Cheyenne Mountain",
+            "Area 51",
+            "NORAD",
+            "Wright-Patterson AFB"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which actor portrays Colonel Jack O'Neill in 'Stargate SG-1'?",
+          "options": [
+            "Richard Dean Anderson",
+            "Michael Shanks",
+            "Amanda Tapping",
+            "Christopher Judge"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the alien species who act as the main antagonists in 'Stargate Universe'?",
+          "options": [
+            "The Lucian Alliance",
+            "The Ori",
+            "The Asurans",
+            "The Destiny crew"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the team's spaceship in 'Stargate Atlantis'?",
+          "options": [
+            "Daedalus",
+            "Prometheus",
+            "Odyssey",
+            "Apollo"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "In the Stargate universe, what is the purpose of the Dial Home Device?",
+          "options": [
+            "To power the Stargate",
+            "To activate the Stargate",
+            "To control the Stargate's destination",
+            "To communicate with other worlds"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is the main character in 'Stargate Universe'?",
+          "options": [
+            "Eli Wallace",
+            "Nicholas Rush",
+            "Camile Wray",
+            "Chloe Armstrong"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the energy weapon used by the Goa'uld?",
+          "options": [
+            "Zat'nik'tel",
+            "Staff weapon",
+            "TAC-2",
+            "Particle magnum"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the alien race that helps the humans in 'Stargate SG-1'?",
+          "options": [
+            "Tok'ra",
+            "Furlings",
+            "Nox",
+            "Jaffa"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the scientist who helps decipher the Stargate in the original 'Stargate' film?",
+          "options": [
+            "Daniel Jackson",
+            "Samantha Carter",
+            "George Hammond",
+            "Teal'c"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which planet serves as the base of operations for the Atlantis team in 'Stargate Atlantis'?",
+          "options": [
+            "Lantea",
+            "Tollana",
+            "Heliopolis",
+            "P3X-888"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the villainous artificial intelligence in 'Stargate SG-1'?",
+          "options": [
+            "Replicators",
+            "Asurans",
+            "Wraith",
+            "Reese"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the villainous Goa'uld who takes on the persona of the Egyptian god Anubis?",
+          "options": [
+            "Ba'al",
+            "Apophis",
+            "Seth",
+            "Hathor"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character is the leader of the Atlantis expedition in 'Stargate Atlantis'?",
+          "options": [
+            "John Sheppard",
+            "Elizabeth Weir",
+            "Rodney McKay",
+            "Teyla Emmagan"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the artificial intelligence created by Dr. Daniel Jackson in 'Stargate SG-1'?",
+          "options": [
+            "Asuran",
+            "Reese",
+            "Replicator",
+            "Wraith"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character is known for saying 'Indeed' in 'Stargate SG-1'?",
+          "options": [
+            "Teal'c",
+            "Vala Mal Doran",
+            "Jonas Quinn",
+            "Cameron Mitchell"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the rogue Asgard scientist who becomes an ally of SG-1?",
+          "options": [
+            "Loki",
+            "Thor",
+            "Freyr",
+            "Heimdall"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "In 'Stargate Universe', what is the name of the ship that the crew finds themselves trapped on?",
+          "options": [
+            "Destiny",
+            "Odyssey",
+            "Prometheus",
+            "Daedalus"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character from 'Stargate SG-1' later becomes the leader of Stargate Command?",
+          "options": [
+            "Cameron Mitchell",
+            "George Hammond",
+            "Jack O'Neill",
+            "Hank Landry"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the enemy alien species in 'Stargate Universe' that feeds on human life force?",
+          "options": [
+            "The Ori",
+            "The Wraith",
+            "The Replicators",
+            "The Lucian Alliance"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character in 'Stargate Atlantis' has the ability to communicate telepathically with the Wraith?",
+          "options": [
+            "Todd",
+            "Michael",
+            "Kolya",
+            "Ford"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the advanced alien race that built the Stargates?",
+          "options": [
+            "Furlings",
+            "Asgard",
+            "Ancients",
+            "Nox"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character in 'Stargate Universe' is an expert in alien technology?",
+          "options": [
+            "Chloe Armstrong",
+            "Eli Wallace",
+            "Nicholas Rush",
+            "Camile Wray"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the highly intelligent race that is the primary enemy in 'Stargate SG-1'?",
+          "options": [
+            "The Goa'uld",
+            "The Replicators",
+            "The Asurans",
+            "The Ori"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character from 'Stargate Atlantis' later appears as a regular character in 'Stargate Universe'?",
+          "options": [
+            "Ronon Dex",
+            "Rodney McKay",
+            "Teyla Emmagan",
+            "Jennifer Keller"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the Stargate SG-1 team member who is a Jaffa?",
+          "options": [
+            "Teal'c",
+            "Daniel Jackson",
+            "Samantha Carter",
+            "Cameron Mitchell"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "In 'Stargate Universe', who is the only crew member who can operate the Ancient technology?",
+          "options": [
+            "Eli Wallace",
+            "Nicholas Rush",
+            "Camile Wray",
+            "Chloe Armstrong"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the advanced race of beings that pose as gods and rule over other planets in 'Stargate SG-1'?",
+          "options": [
+            "The Ancients",
+            "The Nox",
+            "The Asgard",
+            "The Goa'uld"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which character sacrifices themselves by flying a nuclear bomb into a supergate in 'Stargate SG-1'?",
+          "options": [
+            "Samantha Carter",
+            "Jack O'Neill",
+            "Daniel Jackson",
+            "Teal'c"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "In 'Stargate Atlantis', what is the name of the ship that the Atlantis team uses to travel to other planets?",
+          "options": [
+            "Deadalus",
+            "Apollo",
+            "Prometheus",
+            "Odyssey"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character from 'Stargate Universe' is infected with a nanite virus that grants superhuman abilities?",
+          "options": [
+            "Eli Wallace",
+            "Nicholas Rush",
+            "Chloe Armstrong",
+            "Camile Wray"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the legendary treasure that the team searches for in 'Stargate SG-1'?",
+          "options": [
+            "The Eye of Ra",
+            "The Lost City",
+            "The Ark of Truth",
+            "The Holy Grail"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character in 'Stargate Atlantis' becomes a hybrid of human and Wraith DNA?",
+          "options": [
+            "Michael Kenmore",
+            "Todd",
+            "Teyla Emmagan",
+            "Jennifer Keller"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "In 'Stargate Universe', what is the name of the ancient alien ship that the Destiny crew is trying to repair?",
+          "options": [
+            "Asgard",
+            "Furling",
+            "Lantean",
+            "Seed ship"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which character in 'Stargate SG-1' is possessed by the Goa'uld symbiote named Ba'al?",
+          "options": [
+            "Daniel Jackson",
+            "Samantha Carter",
+            "Jack O'Neill",
+            "Cameron Mitchell"
+          ],
+          "level": "hard",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the underground resistance movement fighting against the Goa'uld in 'Stargate SG-1'?",
+          "options": [
+            "The Tok'ra",
+            "The Jaffa",
+            "The Asgard",
+            "The Tauri"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "In 'Stargate Atlantis', which character temporarily becomes a Wraith Queen?",
+          "options": [
+            "Elizabeth Weir",
+            "John Sheppard",
+            "Rodney McKay",
+            "Teyla Emmagan"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the energy source that powers the Stargates in the 'Stargate' franchise?",
+          "options": [
+            "Naquadah",
+            "Trinium",
+            "Neutronium",
+            "ZPM"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which character from 'Stargate Universe' is revealed to be an ancient astronaut who built the Stargates?",
+          "options": [
+            "Eli Wallace",
+            "Nicholas Rush",
+            "Chloe Armstrong",
+            "Camile Wray"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the alternate reality version of Samantha Carter in 'Stargate SG-1'?",
+          "options": [
+            "Sam Carter",
+            "Carter Samuels",
+            "Samantha Carter",
+            "Captain Carter"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "In 'Stargate Atlantis', which character gains the ability to control the Wraith by injecting himself with Wraith enzyme?",
+          "options": [
+            "Michael Kenmore",
+            "Todd",
+            "Ronon Dex",
+            "John Sheppard"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Goa'uld System Lord who has a long-standing rivalry with SG-1?",
+          "options": [
+            "Ba'al",
+            "Apophis",
+            "Seth",
+            "Anubis"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        }
+    ],
+
+    "Harry Potter": [
+        {
+          "question": "What is the name of the boy who lived and is the protagonist of the series?",
+          "options": [
+            "Ron Weasley",
+            "Hermione Granger",
+            "Draco Malfoy",
+            "Harry Potter"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of Harry Potter's owl?",
+          "options": [
+            "Hedwig",
+            "Dobby",
+            "Crookshanks",
+            "Scabbers"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which Hogwarts house does Harry Potter belong to?",
+          "options": [
+            "Gryffindor",
+            "Hufflepuff",
+            "Ravenclaw",
+            "Slytherin"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is Harry Potter's best friend?",
+          "options": [
+            "Ron Weasley",
+            "Hermione Granger",
+            "Neville Longbottom",
+            "Luna Lovegood"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the dark wizard who killed Harry Potter's parents?",
+          "options": [
+            "Voldemort",
+            "Bellatrix Lestrange",
+            "Lucius Malfoy",
+            "Severus Snape"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which professor teaches Defense Against the Dark Arts in Harry Potter's first year at Hogwarts?",
+          "options": [
+            "Severus Snape",
+            "Remus Lupin",
+            "Albus Dumbledore",
+            "Quirinus Quirrell"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the train that takes students to Hogwarts School of Witchcraft and Wizardry?",
+          "options": [
+            "Hogwarts Express",
+            "Knight Bus",
+            "Thestral",
+            "Firebolt"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the sport played on broomsticks in the wizarding world?",
+          "options": [
+            "Quidditch",
+            "Wizard Chess",
+            "Gobstones",
+            "Exploding Snap"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the three-headed dog that guards the Philosopher's Stone in the first book?",
+          "options": [
+            "Fluffy",
+            "Norbert",
+            "Fang",
+            "Scabbers"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the Weasley family's flying car?",
+          "options": [
+            "Nimbus 2000",
+            "Firebolt",
+            "Ford Anglia",
+            "Hogwarts Express"
+          ],
+          "level": "easy",
+          "correctIndex": 2
+        },
+        {
+          "question": "Who is the headmaster of Hogwarts School of Witchcraft and Wizardry?",
+          "options": [
+            "Severus Snape",
+            "Albus Dumbledore",
+            "Minerva McGonagall",
+            "Rubeus Hagrid"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the magical artifact that allows the user to become invisible?",
+          "options": [
+            "Pensieve",
+            "Remembrall",
+            "Sorcerer's Stone",
+            "Invisibility Cloak"
+          ],
+          "level": "easy",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the house-elf who serves the Malfoy family?",
+          "options": [
+            "Dobby",
+            "Kreacher",
+            "Winky",
+            "Hokey"
+          ],
+          "level": "easy",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the gamekeeper at Hogwarts who is half-giant?",
+          "options": [
+            "Rubeus Hagrid",
+            "Argus Filch",
+            "Filius Flitwick",
+            "Sybill Trelawney"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the prison guarded by Dementors in the wizarding world?",
+          "options": [
+            "Azkaban",
+            "Gringotts",
+            "Hogwarts",
+            "Diagon Alley"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the sport played on broomsticks in the wizarding world?",
+          "options": [
+            "Quidditch",
+            "Wizard Chess",
+            "Gobstones",
+            "Exploding Snap"
+          ],
+          "level": "easy",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the potion that grants good luck in 'Harry Potter and the Half-Blood Prince'?",
+          "options": [
+            "Polyjuice Potion",
+            "Felix Felicis",
+            "Amortentia",
+            "Veritaserum"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which character is revealed to be a werewolf in 'Harry Potter and the Prisoner of Azkaban'?",
+          "options": [
+            "Draco Malfoy",
+            "Remus Lupin",
+            "Severus Snape",
+            "Sirius Black"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the house-elf who serves the Black family?",
+          "options": [
+            "Dobby",
+            "Kreacher",
+            "Winky",
+            "Hokey"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the Weasley family's magical clock that shows the whereabouts of each family member?",
+          "options": [
+            "Time-Turner",
+            "Sneakoscope",
+            "Deluminator",
+            "Marauder's Map"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "Which professor teaches Transfiguration at Hogwarts School of Witchcraft and Wizardry?",
+          "options": [
+            "Severus Snape",
+            "Minerva McGonagall",
+            "Filius Flitwick",
+            "Sybill Trelawney"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the Triwizard Tournament's mascot in 'Harry Potter and the Goblet of Fire'?",
+          "options": [
+            "Niffler",
+            "Grindylow",
+            "Blast-Ended Skrewt",
+            "Hippogriff"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which magical creature is known for its ability to heal wounds and is used in 'Harry Potter and the Chamber of Secrets'?",
+          "options": [
+            "Basilisk",
+            "Hippogriff",
+            "Phoenix",
+            "Unicorn"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the house ghost of Ravenclaw in Hogwarts?",
+          "options": [
+            "Nearly Headless Nick",
+            "Fat Friar",
+            "Grey Lady",
+            "Bloody Baron"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "Which unforgivable curse causes the victim to become completely under the caster's control?",
+          "options": [
+            "Imperius Curse",
+            "Cruciatus Curse",
+            "Avada Kedavra",
+            "Sectumsempra"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the potion that allows the drinker to assume the appearance of someone else?",
+          "options": [
+            "Polyjuice Potion",
+            "Veritaserum",
+            "Felix Felicis",
+            "Draught of Living Death"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the ghost who haunts the girls' bathroom at Hogwarts?",
+          "options": [
+            "Nearly Headless Nick",
+            "Moaning Myrtle",
+            "Fat Friar",
+            "Grey Lady"
+          ],
+          "level": "medium",
+          "correctIndex": 1
+        },
+        {
+          "question": "Which wizarding school does Victor Krum, the famous Quidditch player, attend?",
+          "options": [
+            "Hogwarts School of Witchcraft and Wizardry",
+            "Beauxbatons Academy of Magic",
+            "Durmstrang Institute",
+            "Ilvermorny School of Witchcraft and Wizardry"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of Hermione Granger's parents?",
+          "options": [
+            "Arthur and Molly Weasley",
+            "James and Lily Potter",
+            "Lucius and Narcissa Malfoy",
+            "Mr. and Mrs. Granger"
+          ],
+          "level": "medium",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the pub located in Hogsmeade village?",
+          "options": [
+            "The Three Broomsticks",
+            "The Leaky Cauldron",
+            "The Hog's Head",
+            "The Burrow"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which magical object is known for its ability to reveal the location of the wearer's loved ones?",
+          "options": [
+            "Time-Turner",
+            "Sneakoscope",
+            "Deluminator",
+            "Marauder's Map"
+          ],
+          "level": "medium",
+          "correctIndex": 2
+        },
+        {
+          "question": "What is the name of the newspaper in the wizarding world that often features sensational stories?",
+          "options": [
+            "The Daily Prophet",
+            "The Quibbler",
+            "The Daily Bugle",
+            "The Witch's Weekly"
+          ],
+          "level": "medium",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the author of 'Fantastic Beasts and Where to Find Them'?",
+          "options": [
+            "Rita Skeeter",
+            "Newt Scamander",
+            "Gilderoy Lockhart",
+            "Bathilda Bagshot"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the village where the final battle takes place in 'Harry Potter and the Deathly Hallows'?",
+          "options": [
+            "Godric's Hollow",
+            "Hogsmeade",
+            "Little Whinging",
+            "Diagon Alley"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which creature serves as the messenger for Lord Voldemort in the 'Harry Potter' series?",
+          "options": [
+            "Basilisk",
+            "Dementor",
+            "Acromantula",
+            "Nagini"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the potion that can grant immortality in 'Harry Potter and the Sorcerer's Stone'?",
+          "options": [
+            "Veritaserum",
+            "Polyjuice Potion",
+            "Draught of Living Death",
+            "Philosopher's Stone"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is the Headmaster of Durmstrang Institute in the 'Harry Potter' series?",
+          "options": [
+            "Albus Dumbledore",
+            "Severus Snape",
+            "Horace Slughorn",
+            "Igor Karkaroff"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the goblin who helps Harry, Ron, and Hermione break into Gringotts Bank?",
+          "options": [
+            "Griphook",
+            "Bogrod",
+            "Travers",
+            "Bill Weasley"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the author of 'Hogwarts: A History'?",
+          "options": [
+            "Helga Hufflepuff",
+            "Rowena Ravenclaw",
+            "Hermione Granger",
+            "Bathilda Bagshot"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "What is the name of the curse that destroys Horcruxes in the 'Harry Potter' series?",
+          "options": [
+            "Avada Kedavra",
+            "Cruciatus Curse",
+            "Imperius Curse",
+            "Fiendfyre"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is the caretaker of the Room of Requirement at Hogwarts?",
+          "options": [
+            "Filch",
+            "Madam Pomfrey",
+            "Madame Maxime",
+            "Professor Sprout"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the spell used to create a Patronus?",
+          "options": [
+            "Expecto Patronum",
+            "Obliviate",
+            "Expelliarmus",
+            "Riddikulus"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Which Horcrux is destroyed last in the 'Harry Potter' series?",
+          "options": [
+            "Nagini",
+            "Diadem of Ravenclaw",
+            "Locket of Slytherin",
+            "Cup of Hufflepuff"
+          ],
+          "level": "hard",
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the name of the founder of the House of Hufflepuff?",
+          "options": [
+            "Helga Hufflepuff",
+            "Salazar Slytherin",
+            "Godric Gryffindor",
+            "Rowena Ravenclaw"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the prison guarded by Dementors in the 'Harry Potter' series?",
+          "options": [
+            "Azkaban",
+            "Nurmengard",
+            "Shrieking Shack",
+            "Forbidden Forest"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "Who is the founder of the Order of the Phoenix?",
+          "options": [
+            "Albus Dumbledore",
+            "Minerva McGonagall",
+            "Sirius Black",
+            "Severus Snape"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        },
+        {
+          "question": "What is the name of the curse that protects the entrance to the Chamber of Secrets?",
+          "options": [
+            "Avada Kedavra",
+            "Cruciatus Curse",
+            "Imperius Curse",
+            "Basilisk Venom"
+          ],
+          "level": "hard",
+          "correctIndex": 3
+        },
+        {
+          "question": "Who is the author of 'Magical Me'?",
+          "options": [
+            "Gilderoy Lockhart",
+            "Rita Skeeter",
+            "Bathilda Bagshot",
+            "Newt Scamander"
+          ],
+          "level": "hard",
+          "correctIndex": 0
+        }
+    ]
+}
