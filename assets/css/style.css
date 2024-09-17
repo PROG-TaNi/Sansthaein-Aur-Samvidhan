@@ -1,4 +1,7 @@
 /* Basic Styling */
+
+
+
 :root {
     --dark-red: #290909;
     --border-red: #37231d;
@@ -846,7 +849,7 @@ select {
     color: var(--border-blue);
     border: 2px solid var(--border-blue);
     font-size: 18px;
-    font-family: "Orbitron", monospace;3
+    font-family: "Orbitron", monospace;
     z-index: 5;
     font-weight: bold;
 }
@@ -859,7 +862,8 @@ select:hover {
 /***** Background-Images *****/
 #home-page {
     background: url("https://th.bing.com/th/id/OIG4.lDiWmoGigSsQi7j9ynRc?pid=ImgGn") center center/cover repeat  #c24301;
-    overflow-x: hidden !important;   
+    overflow-x: hidden !important;
+    background-attachment: fixed;   
    
     
 }

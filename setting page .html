@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings Page</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #1a1a1a;
+            color: #fff;
+            transition: background-color 0.3s, color 0.3s;
+            position: relative; /* Make sure positioning context is set */
+        }
+
+        h1, h2 {
+            color: inherit;
+        }
+
+        /* Header Styles */
+        .header {
+            background-color: #202330;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #333;
+            transition: background-color 0.3s, color 0.3s;
+            position: relative; /* Ensure it’s on top */
+            z-index: 10; /* Ensure it’s above other elements */
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .header .button {
+            background: linear-gradient(to right, #ff9966, #ff5e62);
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .header .button:hover {
+            background-color: #ff5e62;
+        }
+
+        /* Main Content Styles */
+        .main-content {
+            flex-grow: 1;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative; /* Ensure it’s positioned correctly */
+            z-index: 5; /* Ensure it’s above the background */
+        }
+
+        .settings-container {
+            width: 80%;
+            max-width: 800px;
+            background-color: rgba(51, 51, 51, 0.8);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+
+        .setting-group {
+            margin-bottom: 25px;
+        }
+
+        .setting-group h2 {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .setting-group label {
+            font-size: 14px;
+            margin-right: 10px;
+        }
+
+        select, input[type="checkbox"], button {
+            padding: 8px;
+            font-size: 14px;
+            border-radius: 5px;
+            border: 1px solid #555;
+            background-color: #444;
+            color: #fff;
+            outline: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        button {
+            background-color: #6a1b9a;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #8e44ad;
+        }
+
+        /* Light Mode Styles */
+        body.light-mode {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .settings-container.light-mode {
+            background-color: #fff;
+            color: #333;
+        }
+
+        .header.light-mode {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .header.light-mode h1,
+        .header.light-mode h2,
+        .settings-container.light-mode h1,
+        .settings-container.light-mode h2 {
+            color: #333;
+        }
+
+        .setting-group.light-mode h2,
+        .setting-group.light-mode label {
+            color: #333;
+        }
+
+        select.light-mode,
+        input[type="checkbox"].light-mode,
+        button.light-mode {
+            background-color: #ddd;
+            color: #333;
+            border: 1px solid #ccc;
+        }
+
+        /* Dark Mode Styles */
+        body.dark-mode {
+            background-color: #1a1a1a;
+            color: #f4f4f4;
+        }
+
+        .settings-container.dark-mode {
+            background-color: #333;
+            color: #f4f4f4;
+        }
+
+        .header.dark-mode {
+            background-color: #202330;
+            color: #f4f4f4;
+        }
+
+        .header.dark-mode h1,
+        .header.dark-mode h2,
+        .settings-container.dark-mode h1,
+        .settings-container.dark-mode h2 {
+            color: #f4f4f4;
+        }
+
+        .setting-group.dark-mode h2,
+        .setting-group.dark-mode label {
+            color: #f4f4f4;
+        }
+
+        select.dark-mode,
+        input[type="checkbox"].dark-mode,
+        button.dark-mode {
+            background-color: #444;
+            color: #f4f4f4;
+            border: 1px solid #555;
+        }
+
+        /* Spotlight Effect */
+        #flashlight {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            pointer-events: none;
+            z-index: 1; /* Ensure it’s below content */
+        }
+
+        #bg {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: url('..//Sansthaein-Aur-Samvidhan/India_at_night_darker.png') no-repeat center / cover;
+            filter: brightness(var(--brightness));
+            pointer-events: none;
+            z-index: -1; /* Ensure it’s behind everything */
+        }
+
+        #spotlight {
+            position: absolute;
+            pointer-events: none;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 70%);
+            transition: width 0.1s ease, height 0.1s ease;
+            mix-blend-mode: screen;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div class="header">
+        <a href="..//Sansthaein-Aur-Samvidhan/SIH final.html"><button class="button">Home</button></a>
+        <h1 id="header-title">Settings</h1>
+        <a href="..//Sansthaein-Aur-Samvidhan/current affair page .html"><button class="button">Back</button></a>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="main-content">
+        <div class="settings-container">
+            <h1 id="settings-title">Settings</h1>
+
+            <div class="setting-group">
+                <h2 id="theme-label">Theme</h2>
+                <label for="theme">Choose Theme:</label>
+                <select id="theme">
+                    <option value="light">Light</option>
+                    <option value="dark" selected>Dark</option>
+                    <option value="system">System Default</option>
+                </select>
+            </div>
+
+            <div class="setting-group">
+                <h2 id="notification-label">Notification Preferences</h2>
+                <label for="notifications">Enable Notifications:</label>
+                <input type="checkbox" id="notifications" checked>
+            </div>
+
+            <div class="setting-group">
+                <h2 id="language-label">Language</h2>
+                <label for="language">Select Language:</label>
+                <select id="language">
+                    <option value="en">English</option>
+                    <option value="hi">Hindi</option>
+                    <option value="fr">French</option>
+                </select>
+            </div>
+
+            <div class="setting-group">
+                <h2 id="account-label">Account</h2>
+                <a href="..//Sansthaein-Aur-Samvidhan/sigin.html"><button id="logout">Log Out</button></a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Spotlight and Background -->
+    <div id="flashlight">
+        <div id="bg"></div>
+        <div id="spotlight"></div>
+    </div>
+
+    <!-- JavaScript Section -->
+    <script>
+        // Define Hindi text
+        const hindiTexts = {
+            headerTitle: "सेटिंग्स",
+            settingsTitle: "सेटिंग्स",
+            themeLabel: "थीम",
+            notificationLabel: "सूचना प्राथमिकताएँ",
+            languageLabel: "भाषा",
+            accountLabel: "खाता",
+            language: "भाषा चुनिए",
+
+        };
+
+        // Function to update text based on selected language
+        function updateText(language) {
+            if (language === 'hi') {
+                document.getElementById('header-title').textContent = hindiTexts.headerTitle;
+                document.getElementById('settings-title').textContent = hindiTexts.settingsTitle;
+                document.getElementById('theme-label').textContent = hindiTexts.themeLabel;
+                document.getElementById('notification-label').textContent = hindiTexts.notificationLabel;
+                document.getElementById('language-label').textContent = hindiTexts.languageLabel;
+                document.getElementById('account-label').textContent = hindiTexts.accountLabel;
+            } else {
+                // Default to English
+                document.getElementById('header-title').textContent = "Settings";
+                document.getElementById('settings-title').textContent = "Settings";
+                document.getElementById('theme-label').textContent = "Theme";
+                document.getElementById('notification-label').textContent = "Notification Preferences";
+                document.getElementById('language-label').textContent = "Language";
+                document.getElementById('account-label').textContent = "Account";
+            }
+        }
+
+        // Handle theme change
+        document.getElementById('theme').addEventListener('change', function() {
+            let selectedTheme = this.value;
+            if (selectedTheme === 'dark') {
+                document.body.classList.add('dark-mode');
+                document.body.classList.remove('light-mode');
+                document.querySelector('.settings-container').classList.add('dark-mode');
+                document.querySelector('.settings-container').classList.remove('light-mode');
+                document.querySelector('.header').classList.add('dark-mode');
+                document.querySelector('.header').classList.remove('light-mode');
+            } else if (selectedTheme === 'light') {
+                document.body.classList.add('light-mode');
+                document.body.classList.remove('dark-mode');
+                document.querySelector('.settings-container').classList.add('light-mode');
+                document.querySelector('.settings-container').classList.remove('dark-mode');
+                document.querySelector('.header').classList.add('light-mode');
+                document.querySelector('.header').classList.remove('dark-mode');
+            } else {
+                document.body.classList.remove('light-mode', 'dark-mode');
+                document.querySelector('.settings-container').classList.remove('light-mode', 'dark-mode');
+                document.querySelector('.header').classList.remove('light-mode', 'dark-mode');
+            }
+        });
+
+        // Handle language change
+        document.getElementById('language').addEventListener('change', function() {
+            let selectedLanguage = this.value;
+            updateText(selectedLanguage);
+        });
+
+        // Spotlight effect
+        document.addEventListener('mousemove', function(e) {
+            const spotlight = document.getElementById('spotlight');
+            spotlight.style.width = '200px';  // Adjust width as needed
+            spotlight.style.height = '200px'; // Adjust height as needed
+            spotlight.style.top = `${e.pageY - 100}px`;
+            spotlight.style.left = `${e.pageX -100}px`;
+        });
+    </script>
+</body>
+</html>

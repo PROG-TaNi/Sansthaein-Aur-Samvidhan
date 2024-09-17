@@ -9,10 +9,21 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <style>
-       .content {
+        .content {
         position: relative; 
         overflow: hidden; 
         }
+
+        /* Custom cursor for the whole webpage */
+body {
+    cursor: url('..//Sansthaein-Aur-Samvidhan/assets/images/final\ cursor.png'), auto;
+}
+
+/* Custom cursor for a specific element */
+button, .custom-button {
+    cursor: url('..//Sansthaein-Aur-Samvidhan/assets/images/final\ cursor.png'), pointer; /* Change cursor for buttons */
+}
+
 
     .content::before {
         content: ""; 
@@ -39,7 +50,7 @@
             ;
             margin: 0;
             background-color: #F4F7FD;
-            background:  linear-gradient(to right, #fbc489, #bcfbbe);
+            color: #4A4A4A;
             display: flex;
             flex-direction: column;
         }
@@ -50,7 +61,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: url("..//Sansthaein-Aur-Samvidhan/webp.jpg"); /* Replace with your image URL */
+            background-image: url(..//Sansthaein-Aur-Samvidhan/webp.jpg); /* Replace with your image URL */
             background-size: cover;
             background-position: center;
             filter: blur(10px);
@@ -58,7 +69,7 @@
         /* Sidebar styles */
         .sidebar {
             width: 200px;
-            background-color: #1f1e2c;
+            background-color: #1a1b3c;
             color: #a3a3a8;
             padding: 20px;
             height: 100vh;
@@ -70,7 +81,7 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            transition: transform 0.3s
+            transition: transform 0.3s;
         }
 
         .sidebar:hover {
@@ -131,7 +142,7 @@
             color: white;
         }
 
-        .sidebar .play-button {
+     .sidebar .play-buttonj {
             display: inline-flex;
             align-items: center;
             justify-content: center;
@@ -140,26 +151,98 @@
             font-family: 'Oswald', sans-serif;
             font-weight: bold;
             color: white;
-            background: linear-gradient(90deg, #32CD32, #1E90FF); /* Green to Blue Gradient */
+            background: linear-gradient(90deg, #3e3e3d, #e7f5e7); /* Green to Blue Gradient */
             border: none;
             border-radius: 6px;
             cursor: pointer;
             transition: box-shadow 0.3s ease, transform 0.3s ease;
-            margin-top: 100px;
+            margin-top: 40px;
             width: 150px;
         }
 
-        .sidebar .play-button:hover {
-           transform: scale(1.05);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        .sidebar .play-buttonl {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(90deg, #0004ff, #05acff); /* Green to Blue Gradient */
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+            margin-top: 40px;
+            width: 150px;
         }
 
-            .play-button svg {
-        margin-right: 8px;
-        fill: white;
-        width: 20px;
-        height: 20px;
-}
+
+        .sidebar .play-buttone {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(90deg, #ff0000, #e7920a); /* Green to Blue Gradient */
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+            margin-top: 40px;
+            width: 150px;
+        }
+
+        .sidebar .profile-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(90deg, #4c00ff00, #003cbf00); /* Green to Blue Gradient */
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+            margin-top: 150px;
+            width: 150px;
+        }
+
+        .sidebar .play-buttonj:hover {
+            background-color: #00B746;
+        }
+        .sidebar .play-buttonl:hover {
+            background-color: #9d00ff;
+        }
+        .sidebar .play-buttone:hover {
+            background-color: #f87400;
+        }
+
+        .sidebar .play-buttonl::after {
+            content: '>';
+            font-size: 18px;
+            margin-left: 5px;
+        }
+
+        .sidebar .play-buttone::after {
+            content: '>';
+            font-size: 18px;
+            margin-left: 5px;
+        }
+
+        .sidebar .play-buttonj::after {
+            content: '>';
+            font-size: 18px;
+            margin-left: 5px;
+        }
+
 
         /* Horizontal Navbar */
         .navbar {
@@ -225,7 +308,7 @@
 
         .search-container.active .search-box {
         display: inline-block; /* Show input when active */
-        }   
+        }   /Addies code/
 
         .authors-card {
             background-color: #F9FAFB;
@@ -238,18 +321,14 @@
             height: 400px;
             display: flex;
             flex-direction: column;
-
         }
-
 
         .authors-card h4 {
             margin: 0;
             font-weight: 500;
             margin-bottom: 15px;
             font-size: 20px;
-            background: linear-gradient(to right, #FF7E5F, #FEB47B); /* Gradient from pink to orange */
-           -webkit-background-clip: text; /* Clip the background to the text */
-    -webkit-text-fill-color: transparent;
+            color: #2C2F3F;
         }
 
         .authors-card ul {
@@ -312,37 +391,6 @@
             flex-wrap: wrap;
             gap: 20px;
             margin-top: 20px;
-            
-        }
-
-        .activity-card h3{
-            margin: 0;
-            font-weight: 500;
-            margin-bottom: 15px;
-            font-size: 20px;
-            background: linear-gradient(to right, #36d1dc,#5b86e5);/* Gradient from pink to orange */
-           -webkit-background-clip: text; /* Clip the background to the text */
-    -webkit-text-fill-color: transparent;}
-
-      .text-todo h4 { margin: 0;
-            font-weight: 500;
-            margin-bottom: 15px;
-            font-size: 20px;
-            background: linear-gradient(to right, #fefdff, #2575fc)
-            -webkit-background-clip: text; /* Clip the background to the text */
-    -webkit-text-fill-color: transparent;
-        }
-
-        .profile-card {
-
-            background: linear-gradient(to right,rgba(250, 204, 177, 0.432), rgba(0, 254, 76, 0.366));
-            
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            flex: 1 1 calc(30% - 20px); /* Adjusted for three boxes in a row */
-            position: relative;
-            transition: all 0.3s ease;
         }
 
         /* Card styles */
@@ -632,6 +680,7 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 20px;
 }
 
 .judges-container {
@@ -685,22 +734,46 @@ body::before {
     z-index: 1; /* Ensure it is above the background */
 }
 .sidebar ul{ text-decoration: none;}
-/* Todo Card styles */
-.todo-card {
-    background-color: #FFFFFF;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    flex: 1 1 calc(30% - 20px); 
-    position: relative;
-    transition: all 0.3s ease;
-    height: 400px; 
-    overflow-y: auto; 
+    .sidebar span{ text-decoration: none;}
+
+.sidebar li span {
+    text-decoration: none; /* Ensures no text decoration */
+    color: #fff; /* Ensures text color is white */
 }
 
-.todo-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+.sidebar li a {
+    text-decoration: none; /* Removes underline from links */
+    color: inherit; /* Inherits color from parent element */
+}
+
+.authors-card {
+    width: 300px; /* Adjust the width as per your design */
+    padding: 10px;
+    border: 1px solid #ddd; /* Optional: for visual boundaries */
+}
+
+.authors-card ul {
+    max-height: 400px; /* Set the desired height */
+    overflow-y: auto;  /* Enables vertical scrolling */
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+}
+
+.authors-card ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.authors-card ul li img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%; /* Makes the image circular */
+}
+
+.authors-card ul li div p {
+    margin: 0;
 }
 
 .activity-card {
@@ -710,6 +783,7 @@ body::before {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-family: 'Roboto', sans-serif;
     color: #616161; 
+   
 }
 
 .timeline {
@@ -747,66 +821,6 @@ body::before {
     color: #37474F;
 }
 
-/* Modal styling */
-.modal{
-    width: 300px; /* Adjust the width as per your preference */
-    height: 400px; /* Adjust the height as per your preference */
-    border-radius: 20px;
-    background-image: url("..//Sansthaein-Aur-Samvidhan/assets/images/dialog\ box\ for\ VR.jpg"); /* Replace with the actual path to your image */
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a subtle effect */
-    padding: 20px; /* Adjust padding as needed */
-    overflow: hidden;
-}
-
-
-.modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; 
-    padding: 20px;
-    border: 1px solid #888;
-    width: 50%; /* Width of the modal */
-    text-align: center;
-}
-
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-.sidebar span{
-    text-decoration: none;
-}
-
-.trends-card{
-  font-size: 20px;
-  font-weight: bold;
-  background: linear-gradient(to right, #6f00ff, #92ff99, #07dc07);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.authors-card h3{
-font-size: 20px;
-  font-weight: bold;
-  background: linear-gradient(to right, #6f00ff, #92ff99, #07dc07);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.sidebar ul li span {
-            text-decoration: none;
-        }
 
     </style>
 </head>
@@ -815,20 +829,26 @@ font-size: 20px;
     <!-- Sidebar -->
     <div class="sidebar">
 
-         <a href="C:\Users\tarus\OneDrive\Desktop\SIH\Sansthaein-Aur-Samvidhan\SIH.html"><img src="..//Sansthaein-Aur-Samvidhan/logo final.png" width="200px"></a>
-            
+
+         <img src="..//Sansthaein-Aur-Samvidhan/logo final.png" alt="">
         <ul>
-            <li class="active"><img src="https://imgs.search.brave.com/8gCYOCm6-X6gzCOkAkaPQFLyWUMAyEkytifjovNrUtw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA4LzA3LzYwLzA4/LzM2MF9GXzgwNzYw/MDg5Ml9scVZKUVNB/dE5yR2ZTSkNrVEdt/TlpIWjBjcU5uYk93/eS5qcGc" alt="Menu Icon"> <span>Menu</span></li>
-            <li><img src="https://imgs.search.brave.com/mTyJXBD9zQkpcCvVx_GUGT7c9Zet2ISgiTK6S42QiEA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA4LzY5LzI1Lzgw/LzM2MF9GXzg2OTI1/ODAzN19uMUs2VjFZ/YWowZG1RVVpyOGRk/MmZGbndYaFpUUElr/ai5qcGc" alt="Button 1 Icon"> <span>Statistics</span></li>
+            <li><a href="C:\Users\tarus\OneDrive\Desktop\SIH\Sansthaein-Aur-Samvidhan\First Page .html"><img src="https://imgs.search.brave.com/8gCYOCm6-X6gzCOkAkaPQFLyWUMAyEkytifjovNrUtw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA4LzA3LzYwLzA4/LzM2MF9GXzgwNzYw/MDg5Ml9scVZKUVNB/dE5yR2ZTSkNrVEdt/TlpIWjBjcU5uYk93/eS5qcGc" alt="Menu Icon"> <span>Menu</span></li></a>
+            <li><a href="C:\Users\tarus\OneDrive\Desktop\SIH\Sansthaein-Aur-Samvidhan\statistics.html"><img src="https://imgs.search.brave.com/mTyJXBD9zQkpcCvVx_GUGT7c9Zet2ISgiTK6S42QiEA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA4LzY5LzI1Lzgw/LzM2MF9GXzg2OTI1/ODAzN19uMUs2VjFZ/YWowZG1RVVpyOGRk/MmZGbndYaFpUUElr/ai5qcGc" alt="Button 1 Icon"> <span>Statistics</span></li></a>
             <li> <a href="C:\Users\tarus\OneDrive\Desktop\SIH\Sansthaein-Aur-Samvidhan\current affair page .html"> <img src="https://imgs.search.brave.com/_a47vCl9MjwvPl8Ux6adOrg9NocTizbm6f20yL4d2Jc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni85MDg2LzkwODYw/NTQucG5nP3NlbXQ9/YWlzX2h5YnJpZA" alt="Button 2 Icon"> <span>Trends and Current affairs</span></li></a>
-            <li><img src="https://th.bing.com/th/id/OIP.rZs9wRA7DVkNxeLbfZL-SwHaHa?rs=1&pid=ImgDetMain" alt="Button 3 Icon"> <span>Settings</span></li>
-            <a href="index.html" ><li class="play-button" style="text-decoration: none;" ><span>PLAY</span></li></a>
+            <li> <a href="C:\Users\tarus\OneDrive\Desktop\SIH\Sansthaein-Aur-Samvidhan\setting page .html"><img src="https://th.bing.com/th/id/OIP.rZs9wRA7DVkNxeLbfZL-SwHaHa?rs=1&pid=ImgDetMain" alt="Button 3 Icon"> <span>Settings</span></a></li>
+            <a href="index.html" ><li class="play-buttonl">Legislative Quiz  </li> </a>
+            <a href="index.html" ><li class="play-buttone">Executive Quiz </li> </a>
+            <a href="index.html" ><li class="play-buttonj">Judiciary Quiz</li> </a>
+            
         </ul>
+        
     </div>
+   
+    
 
     <!-- Navbar -->
     <div class="navbar">
-        <button class="nav-button">Menu</button>
+        
         <button class="nav-button">Legislative</button>
         <button class="nav-button">Executive</button>
         <button class="nav-button">Judiciary</button>
@@ -837,24 +857,20 @@ font-size: 20px;
             <button class="nav-button search-toggle">Search</button>
             <input type="text" class="search-box" placeholder="Type to search...">
         </div>
-         
+        
+        <!-- NAV ICONS-->
+
+
         <div class="nav-images">
             <img src="https://img.freepik.com/premium-vector/notification-bell-icon-white-background-vector-alarm-button-isolated-black-sing-symbol_833641-1588.jpg" alt="Image 1">
-            
-        
-            <img id="openModal2" src="https://imgs.search.brave.com/GsqWbez3U7OX5G9VGz062UkoQglblh668i1sw-DQSDk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA0LzEwLzQ1LzAz/LzM2MF9GXzQxMDQ1/MDM3Nl8zQXI4cUFp/Y0IxTnJuYUhseElt/OENQZFBxUDJyTjBW/Ry5qcGc" alt="Image 2">
-            
-            <a href="..//Sansthaein-Aur-Samvidhan/map game.html"><img src="https://www.freepngimg.com/thumb/orange/81572-graphic-of-india-illustration-flag-indian-design.png" alt="Image 3"></a>
-            
-            <img src="https://imgs.search.brave.com/eiOsLoSPbAyRIoUUkJjN7GoEQxaw6wy6lj51a0dB098/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA4LzY5LzI1Lzgw/LzM2MF9GXzg2OTI1/ODA4MV9JSE5wSk81/MUJwSEtXZHdUUklh/cklManFFWThRME5P/bS5qcGc" alt="Image 4">
-            
-            <img src="https://imgs.search.brave.com/VZ9zscE7gVcEoYOb6mZrjbt2U-h6ury6dnQpZsvYBvw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA4LzMxLzgzLzU5/LzM2MF9GXzgzMTgz/NTk0OF9RTEc2aEhP/RkV4Zk1yNmdlTWhF/MGJuZU5hS2NhQVZa/NC5qcGc" alt="Image 5">
+            <a href="..//Sansthaein-Aur-Samvidhan/map game.html"><img src="https://www.freepngimg.com/thumb/orange/81572-graphic-of-india-illustration-flag-indian-design.png" alt="Image 2"></a>
+           <a href="C:\Users\tarus\OneDrive\Desktop\SIH\Sansthaein-Aur-Samvidhan\statistics.html"> <img src="https://imgs.search.brave.com/eiOsLoSPbAyRIoUUkJjN7GoEQxaw6wy6lj51a0dB098/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA4LzY5LzI1Lzgw/LzM2MF9GXzg2OTI1/ODA4MV9JSE5wSk81/MUJwSEtXZHdUUklh/cklManFFWThRME5P/bS5qcGc" alt="Image 3"></a>
+           <a href="C:\Users\tarus\OneDrive\Desktop\SIH\Sansthaein-Aur-Samvidhan\profile page .html"> <img src="https://imgs.search.brave.com/UAsV1Yw4sIdjjS2N4GodBteghmlhKx-Ypm_nF_nRH_k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1Lzc2LzY5LzU3/LzM2MF9GXzU3NjY5/NTc2N191NFFsYjZC/azc5dGxBNHNaUkc0/bXpXd2R1MXM3VkFr/MS5qcGc" alt="Image 4"></a>
+           
+           <!-- AI CHAT BOT ICON --> 
+           
+           <a href="#"> <img src="https://imgs.search.brave.com/eoMON7mj8-6oYoG3xdTJHy-ILmNKb9FeEbHAw-h-LqE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA2LzQxLzc1LzA1/LzM2MF9GXzY0MTc1/MDU4Ml9keXpsTHNX/OUF4U2xaRVVuNTln/VUlFWjl0R3hjbjNu/Ry5qcGc" alt="AI"></a>
         </div>
-        
-        
-
-
-        
     </div>
 
     <!-- Content Area -->
@@ -871,12 +887,12 @@ font-size: 20px;
             <p id="profile-age">Age: 19</p>
             <p id="profile-city">City: Mumbai</p>
             <button id="edit-profile-btn">Edit Profile</button>
-            <p>⭐⭐⭐⭐⭐</p>
         </div>
 
+        <!--ACTIVITY CARD-->
         <!--ACTIVITY CARD edited-->
         <div class="activity-card">
-            <h3><b>Activity Card</b></h3>
+            <h3>Activity Card</h3>
             <ul class="timeline">
                 <li>
                     <span class="time" style="color: #B39DDB;">08:42</span>
@@ -919,7 +935,7 @@ font-size: 20px;
           
 
             <!-- Performance Report Card -->
-            <div class="text-report">
+            <div class="card performance-report-card">
                 <h3>Performance Report</h3>
                 <div class="chart-container">
                     <div id="performanceChart"></div>
@@ -934,12 +950,15 @@ font-size: 20px;
                 </div>
             </div>
 
-            <!-- Crossword -->
-            <div class="todo-text">
+            <!-- Todo Card -->
+            <div class="card todo-card">
                 <h3>Crossword</h3>
-                <div class="remix-app" hash="39c74d160a7c9fbb"> 
-                   <iframe src="https://p.interacty.me/39c74d160a7c9fbb/iframe.html" height="350" width="350" frameborder="0"></iframe> <script src="" async></script>
+                <div class="interacty_padding" style="position: relative; padding: 99.5% 0 0 0;">
+                    <div class="interacty_wrapper" style="position: absolute; top: 0; left: 0; width: 350px; height: 350px; display: flex; justify-content: center;">
+                        <iframe style="border: none; width: 100%; height: 100%;" src="https://p.interacty.me/39c74d160a7c9fbb/iframe.html"></iframe>
+                    </div>
                 </div>
+                </ul>
             </div>
 
             <!-- Authors Card -->
@@ -956,16 +975,80 @@ font-size: 20px;
                     <li>
                         <img src="https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2023/10/2024011164.jpg" alt="Author 2">
                         <div>
-                            <p>Dr. Sanjiv Khanna </p>
+                            <p>Justice Sanjiv Khanna </p>
+                            <p> Justice of India </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2023/10/2024011170.jpg" alt="Author 2">
+                        <div>
+                            <p>Justice Bhushan Ramkrishna Gavai </p>
+                            <p> Justice of India </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2023/10/2024011113.jpg" alt="Author 2">
+                        <div>
+                            <p>Justice Surya Kant</p>
+                            <p> Justice of India </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2023/10/2024011125.jpg" alt="Author 2">
+                        <div>
+                            <p>Justice Hrishikesh Roy </p>
+                            <p> Justice of India </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src=https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2023/10/2024011123.jpg alt="Author 2">
+                        <div>
+                            <p>Justice Abhay.S. Oka </p>
+                            <p> Justice of India </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2023/10/2024011164.jpg" alt="Author 2">
+                        <div>
+                            <p>Justice Vikram Nath </p>
+                            <p> Justice of India </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2023/10/2024011164.jpg" alt="Author 2">
+                        <div>
+                            <p>Justice Pamidighantam Sri Narasimha </p>
+                            <p> Justice of India </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2023/10/2024011164.jpg" alt="Author 2">
+                        <div>
+                            <p>Justice Bela M. Trivedi</p>
+                            <p> Justice of India </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2023/10/2024011164.jpg" alt="Author 2">
+                        <div>
+                            <p>Justice Sudhanshu Dhulia </p>
+                            <p> Justice of India </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2023/10/2024011164.jpg" alt="Author 2">
+                        <div>
+                            <p>Justice J.B. Pardiwala </p>
                             <p> Justice of India </p>
                         </div>
                     </li>
                 </ul>
+
             </div>
 
 
-            <!-- Authors Card -->
-            <div class="trends-card">
+             <!-- Authors Card -->
+             <div class="trends-card">
                 <h3>Trends</h3>
                 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">03/09/24 - Vaibhav Jain Vs. Hindustan Motors Pvt. Ltd. [Civil Appeal No. 10192 /2024 arising out of SLP (C) No. 28968/2018]: <a href="https://t.co/Hsh4UUENHj">https://t.co/Hsh4UUENHj</a> <a href="https://twitter.com/hashtag/Civil?src=hash&amp;ref_src=twsrc%5Etfw">#Civil</a> <a href="https://twitter.com/hashtag/Appeal?src=hash&amp;ref_src=twsrc%5Etfw">#Appeal</a> <a href="https://twitter.com/hashtag/SupremeCourt?src=hash&amp;ref_src=twsrc%5Etfw">#SupremeCourt</a></p>&mdash; Latest Supreme Court Judgments (@SCJudgments) <a href="https://twitter.com/SCJudgments/status/1831267416975786264?ref_src=twsrc%5Etfw">September 4, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     <canvas id="authorsChart"></canvas>
@@ -973,10 +1056,6 @@ font-size: 20px;
             </div>
         </div>
     </div>
-
-
-
-    
 
     <!-- Dialog Box -->
     <div class="dialog-box" id="editProfileDialog">
@@ -1089,35 +1168,10 @@ fon
         }
          });
 
-         // Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the image that opens the modal
-var img2 = document.getElementById("openModal2");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the second image, open the modal
-img2.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-
         
+    </script>
 
- type="text/javascript">
+    <script type="text/javascript">
     !function(t,e){
         t.artibotApi={l:[],t:[],on:function(){this.l.push(arguments)},trigger:function(){this.t.push(arguments)}};
         var a=!1,i=e.createElement("script");
@@ -1128,15 +1182,7 @@ window.onclick = function(event) {
             }
         }
     }(window,document);
-
-
-
-    
 </script>
-<script type="text/javascript">!function(t,e){t.artibotApi={l:[],t:[],on:function(){this.l.push(arguments)},trigger:function(){this.t.push(arguments)}};var a=!1,i=e.createElement("script");i.async=!0,i.type="text/javascript",i.src="https://app.artibot.ai/loader.js",e.getElementsByTagName("head").item(0).appendChild(i),i.onreadystatechange=i.onload=function(){if(!(a||this.readyState&&"loaded"!=this.readyState&&"complete"!=this.readyState)){new window.ArtiBot({i:"96fffb82-ab7b-438e-aae4-a8e0cfc4b6c1"});a=!0}}}(window,document);</script>
-
-
 </body>
-
 
 </html>

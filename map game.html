@@ -124,12 +124,13 @@
             </object>
 
             <!-- Popup HTML -->
-            <div id="popup">
-                <h3>Do you want to start game?</h3>
-                <p>drag places to the map and slove the puzzle</p>
+            <<div id="popup">
+                <h3>Do you want to start the game?</h3>
+                <p>Drag places to the map and solve the puzzle</p>
                 <button id="ybtn" onclick="startGame()">Yes</button>
-                <button id="nbtn" onclick="closePopup()">No</button>
+                <button id="nbtn" onclick="redirect()">No</button>
             </div>
+            
 
             <div id="score">Score: <span id="scoreNum">0</span></div>
             <div id="timer">Time: off</div>
@@ -146,6 +147,10 @@
         </div>
     </div>
     <script src="map game.js"></script>
+   <script>function redirect() {
+    window.location.href = 'file:///C:/Users/tarus/OneDrive/Desktop/SIH/Sansthaein-Aur-Samvidhan/SIH final.html';
+}
+</script>
 </body>
 
 </html>

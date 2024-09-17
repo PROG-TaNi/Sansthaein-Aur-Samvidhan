@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+        }
+
+        .sidebar {
+            width: 240px;
+            background-color: #1c1c2c;
+            color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .sidebar-header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .logo {
+            width: 100px;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        .sidebar-header h2,
+        .sidebar-header p {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .nav-links {
+            list-style-type: none;
+            padding: 0;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            padding: 15px 20px;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+        }
+
+        .nav-item i {
+            margin-right: 10px;
+            font-size: 18px;
+        }
+
+        .nav-item a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+
+        .nav-item:hover {
+            background-color: #1a202c;
+        }
+
+        .play-button {
+            margin-bottom: 200px;
+        }
+
+        .play-button button {
+            background: linear-gradient(90deg, #0ce956 0%, #0738db 100%);
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 200px;
+        }
+
+        .play-button button:hover {
+            background: linear-gradient(90deg, #78e286 0%, #4b6ee2 100%);
+        }
+
+        .main-content {
+            margin-left: 240px;
+            padding: 20px;
+            background-color: #f4f7fc;
+            width: calc(100% - 240px);
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .charts {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Set to 3 columns */
+            gap: 40px;
+            width: 100%;
+        }
+
+        .chart {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, background-color 0.3s, color 0.3s;
+        }
+
+        .chart:hover {
+            transform: translateY(-10px);
+        }
+
+        .leaderboard {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            height: 400px;
+            overflow-y: auto;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .leaderboard h3 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+            text-align: center;
+        }
+
+        .leaderboard-content {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .leaderboard-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: #f4f7fc;
+            border-radius: 5px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .leaderboard-item:nth-child(even) {
+            background-color: #e0e7ff;
+        }
+
+        .name {
+            font-size: 16px;
+            color: #000000;
+        }
+
+        .points {
+            font-size: 16px;
+            font-weight: bold;
+            color: #2d3748;
+        }
+
+        .sun-icon {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            font-size: 24px;
+            cursor: pointer;
+            z-index: 1100;
+            transition: color 0.3s;
+        }
+
+    
+
+        /* Dark Mode */
+.dark-mode {
+    background-color: #000000;
+    color: #ffffff; /* Set default text color to white */
+}
+
+.dark-mode .main-content,
+.dark-mode .chart,
+.dark-mode .leaderboard {
+    background-color: #000000;
+    color: #ffffff; /* Set text color for all content inside */
+}
+
+.dark-mode .leaderboard-item {
+    background-color: #444;
+    color: #ffffff; /* Set leaderboard item text color */
+}
+
+.dark-mode .leaderboard-item:nth-child(even) {
+    background-color: #555;
+    color: #ffffff; /* Ensure text color is white even for alternating backgrounds */
+}
+
+.dark-mode h1, /* Headings */
+.dark-mode h3, /* Subheadings */
+.dark-mode p,  /* Paragraph text */
+.dark-mode .points, /* Data points */
+.dark-mode .name { /* Name elements */
+    color: #ffffff; /* Ensure all headings, text, and data points turn white */
+}
+
+/* Optional: Adjust hover effects for better contrast in dark mode */
+.dark-mode .nav-item:hover {
+    background-color: #000000; /* Adjust hover background color */
+}
+.dark-mode .chart{ background-color: #262626}
+.dark-mode .leaderboard{ background-color: #262626}
+
+
+.dark-mode .chart:hover {
+    transform: translateY(-10px);
+    background-color: #444; /* Ensure charts retain proper background on hover */
+}
+
+.dark-mode .apexcharts-xaxis-label,
+.dark-mode .apexcharts-yaxis-label {
+    fill: #ffffff !important; /* Ensures that the X and Y axis labels are white */
+}
+
+.dark-mode .apexcharts-gridline {
+    stroke: #444 !important; /* Changes gridline color for better visibility */
+}
+
+.dark-mode .apexcharts-legend-text {
+    fill: #ff0000 !important; /* Ensures the legend text is white in dark mode */
+}
+.dark-mode .apexcharts-pie-label {
+    fill: #ffffff !important; /* Ensures that pie chart labels are white */
+}
+
+.dark-mode .apexcharts-tooltip {
+    background-color: #333 !important; /* Dark background for tooltips in dark mode */
+    color: #ffffff !important; /* White text in tooltips */
+}
+
+.dark-mode .apexcharts-legend-text {
+    fill: #ffffff !important; /* Ensures the legend text is white in dark mode */
+}
+.dark-mode .apexcharts-tooltip {
+    background-color: #333 !important; /* Dark background for tooltips */
+    color: #fff !important; /* White text in tooltips */
+}
+
+.dark-mode .apexcharts-legend-text {
+    fill: #fff !important; /* White text for legends */
+}
+
+.dark-mode .apexcharts-tooltip {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+.apexcharts-text{ color: #751c1c
+    ;}
+
+ .apexcharts-pie-label {
+    fill: #fffbfb !important;
+}
+.dark-mode .apexcharts-text{
+    color: #fff;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="sun-icon">
+        <i class="fas fa-sun"></i>
+    </div>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <a href="..//Sansthaein-Aur-Samvidhan/SIH final.html"><img src="..//Sansthaein-Aur-Samvidhan/logo final.png" alt="SANSTHAEIN AUR SAMVIDHAN" width="200px" height="070"></a>
+                <h2></h2>
+                <p></p>
+            </div>
+            <ul class="nav-links">
+                <li class="nav-item">
+                    <i class="fas fa-home"></i> <a href="C:\Users\tarus\OneDrive\Desktop\SIH\Sansthaein-Aur-Samvidhan\First Page .html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <i class="fas fa-bars"></i> <a href="C:\Users\tarus\OneDrive\Desktop\SIH\Sansthaein-Aur-Samvidhan\SIH final.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <i class="fas fa-chart-bar"></i> <a href="C:\Users\tarus\OneDrive\Desktop\SIH\Sansthaein-Aur-Samvidhan\statistics.html">Statistics</a>
+                </li>
+                <li class="nav-item">
+                    <i class="fas fa-brain"></i> <a href="C:\Users\tarus\OneDrive\Desktop\SIH\Sansthaein-Aur-Samvidhan\current affair page .html">Trends and Current Affairs</a>
+                </li>
+                <li class="nav-item">
+                    <i class="fas fa-cog"></i> <a href="C:\Users\tarus\OneDrive\Desktop\SIH\Sansthaein-Aur-Samvidhan\setting page .html">Settings</a>
+                </li>
+            </ul>
+            <div class="play-button">
+                <a href="..//Sansthaein-Aur-Samvidhan/index.html"><button>PLAY ></button></a>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <h1>Statistics Dashboard</h1>
+            <div class="charts">
+                <!-- Leaderboard Card -->
+                <div class="leaderboard">
+                    <h3>Leaderboard</h3>
+                    <div class="leaderboard-content">
+                        <div class="leaderboard-item">
+                            <span class="name">User 1</span>
+                            <span class="points">1500 pts</span>
+                        </div>
+                        <div class="leaderboard-item">
+                            <span class="name">User 2</span>
+                            <span class="points">1200 pts</span>
+                        </div>
+                        <div class="leaderboard-item">
+                            <span class="name">User 3</span>
+                            <span class="points">1000 pts</span>
+                        </div>
+                        <div class="leaderboard-item">
+                            <span class="name">User 4</span>
+                            <span class="points">800 pts</span>
+                        </div>
+                        <div class="leaderboard-item">
+                            <span class="name">User 5</span>
+                            <span class="points">700 pts</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Radial Chart (1st card) -->
+                <div class="chart">
+                    <div id="chart1"></div>
+                </div>
+
+                <!-- Bar Graph (2nd row, 2nd column) -->
+                <div class="chart">
+                    <div id="chart2"></div>
+                </div>
+
+                <!-- Line Area Graph (3rd card) -->
+                <div class="chart">
+                    <div id="chart3"></div>
+                </div>
+
+                <!-- Pie Chart (4th card) -->
+                <div class="chart">
+                    <div id="chart4"></div>
+                </div>
+
+
+                <!-- Radar Chart (6th card) -->
+                <div class="chart">
+                    <div id="chart6"></div>
+                </div>
+
+        
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script>
+        // Radial Chart (1st card)
+        var options1 = {
+            series: [92, 90, 70],
+            chart: {
+                type: 'radialBar',
+                height: 350
+                
+            },
+            colors: ['#fc7200', '#0015fc', '#00b506'],
+            plotOptions: {
+                radialBar: {
+                    dataLabels: {
+                        name: {
+                            fontSize: '22px',
+                            color: undefined,
+                            offsetY: 140  // Adjusted position
+                        },
+                        value: {
+                            fontSize: '16px',
+                            color: '#fff',
+                            offsetY: 20,
+                            formatter: function (val) {
+                                return val + "%";
+                            }
+                        }
+                    }
+                }
+            },
+            labels: ['Legislature', 'Executive', 'Judiciary']
+        };
+        var chart1 = new ApexCharts(document.querySelector("#chart1"), options1);
+        chart1.render();
+
+        // Bar Graph (2nd row, 2nd column)
+        var options2 = {
+            series: [{
+                name: 'Sales',
+                data: [30, 40, 45, 50, 49, 60, 70]
+            }],
+            chart: {
+                type: 'bar',
+                height: 350
+            },
+            colors: ['#00fcf0'],
+            plotOptions: {
+                bar: {
+                    horizontal: false,
+                    endingShape: 'rounded'
+                }
+            },
+            dataLabels: {
+                enabled: false
+            },
+            xaxis: {
+                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul']
+            },
+            fill: {
+                colors: ['#00fcf0']
+            }
+        };
+        var chart2 = new ApexCharts(document.querySelector("#chart2"), options2);
+        chart2.render();
+
+        // Line Area Graph (3rd card)
+        var options3 = {
+            series: [{
+                name: 'Revenue',
+                data: [50, 40,50, 35, 58, 60, 80]
+            }],
+            chart: {
+                type: 'area',
+                height: 350
+            },
+            colors: ['#00E396'],
+            dataLabels: {
+                enabled: false
+            },
+            fill: {
+                colors: ['#00E396'],
+                type: 'gradient'
+            },
+            xaxis: {
+                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul']
+            }
+        };
+        var chart3 = new ApexCharts(document.querySelector("#chart3"), options3);
+        chart3.render();
+
+        // Pie Chart (4th card)
+        var options4 = {
+            series: [44, 55, 13, 43],
+            chart: {
+                type: 'pie',
+                height: 350
+            },
+            colors: ['#FF4560', '#00E396', '#008FFB', '#775DD0'],
+            labels: ['Category A', 'Category B', 'Category C', 'Category D'],
+            responsive: [{
+                breakpoint: 480,
+                options: {
+                    chart: {
+                        width: 200
+                    },
+                    legend: {
+                        position: 'bottom'
+                    }
+                }
+            }]
+        };
+        var chart4 = new ApexCharts(document.querySelector("#chart4"), options4);
+        chart4.render();
+
+        // Bar Graph (5th card)
+        var options5 = {
+            series: [{
+                name: 'Sales',
+                data: [50, 70, 60, 90, 80, 110, 120]
+            }],
+            chart: {
+                type: 'bar',
+                height: 350
+            },
+            colors: ['#00fcf0'],
+            plotOptions: {
+                bar: {
+                    horizontal: false,
+                    endingShape: 'rounded'
+                }
+            },
+            dataLabels: {
+                enabled: false
+            },
+            xaxis: {
+                categories: ['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7']
+            },
+            fill: {
+                colors: ['#008FFB']
+            }
+        };
+        var chart5 = new ApexCharts(document.querySelector("#chart5"), options5);
+        chart5.render();
+
+        // Radar Chart (6th card)
+        var options6 = {
+            series: [{
+                name: 'Performance',
+                data: [65, 100, 98, 68, 80]
+            }],
+            chart: {
+                height: 350,
+                type: 'radar',
+            },
+            colors: ['#FF4560', '#00E396', '#008FFB', '#775DD0'],
+            plotOptions: {
+                radar: {
+                    polygons: {
+                        strokeColors: '#e9e9e9',
+                        fill: {
+                            colors: ['#f8f8f8', '#f8f8f8', '#f8f8f8', '#f8f8f8', '#f8f8f8']
+                        }
+                    }
+                }
+            },
+            dataLabels: {
+                enabled: true
+            },
+            xaxis: {
+                categories: ['Metric 1', 'Metric 2', 'Metric 3', 'Metric 4', 'Metric 5']
+            }
+        };
+        var chart6 = new ApexCharts(document.querySelector("#chart6"), options6);
+        chart6.render();
+
+        // Line Area Graph (7th card)
+        var options7 = {
+            series: [{
+                name: 'Growth',
+                data: [20, 40, 30, 50, 60, 80, 90]
+            }],
+            chart: {
+                type: 'area',
+                height: 350
+            },
+            colors: ['#00E396'],
+            dataLabels: {
+                enabled: false
+            },
+            fill: {
+                colors: ['#00E396'],
+                type: 'gradient'
+            },
+            xaxis: {
+                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul']
+            }
+        };
+        var chart7 = new ApexCharts(document.querySelector("#chart7"), options7);
+        chart7.render();
+
+        // Dark Mode Toggle
+        const sunIcon = document.querySelector('.sun-icon');
+        const body = document.querySelector('body');
+
+        sunIcon.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            if (body.classList.contains('dark-mode')) {
+                sunIcon.innerHTML = '<i class="fas fa-moon"></i>';
+            } else {
+                sunIcon.innerHTML = '<i class="fas fa-sun"></i>';
+            }
+        });
+    </script>
+</body>
+
+</html>

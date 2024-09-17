@@ -9,13 +9,72 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <style>
-        .s:hover {
-            text-decoration: none;
-            color: white;
+        body {
+            font-family: 'Poppins', sans-serif;
+            transition: background-color 0.3s, color 0.3s;
+            background-color: #f8f9fa; /* Light background color */
+            color: #212529; /* Dark text color */
+        }
+
+        body.dark-mode {
+            background-color: #000; /* Dark background color */
+            color: #f4f4f4;
+            background-image: url(..//Sansthaein-Aur-Samvidhan/darkmode\ bg.png); /* Light text color */
+        }
+
+        .card {
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .card.dark-mode {
+            background-color: #000000;
+            color: #f4f4f4;
+        }
+
+        .card-title {
+            color: #000; /* Heading color in light mode */
+        }
+
+        .card-title.dark-mode {
+            color: #fff; /* Heading color in dark mode */
+        }
+
+        /* Sun/Moon Icon Styles */
+        .theme-toggle, .translate-toggle {
+            position: fixed;
+            font-size: 24px;
+            cursor: pointer;
+            z-index: 1000;
+            color: #007bff; /* Icon color in light mode */
+            transition: color 0.3s;
+        }
+
+        .theme-toggle.dark-mode, .translate-toggle.dark-mode {
+            color: #fff; /* Icon color in dark mode */
+        }
+
+        .theme-toggle {
+            top: 10px;
+            right: 10px;
+        }
+
+        .translate-toggle {
+            top: 10px;
+            left: 10px;
         }
     </style>
 </head>
 <body class="bg-light">
+    <!-- Translation Toggle Button -->
+    <div id="translate-toggle" class="translate-toggle">
+        <i class="material-icons">translate</i> <!-- Translation icon -->
+    </div>
+
+    <!-- Theme Toggle Button -->
+    <div id="theme-toggle" class="theme-toggle">
+        <i class="material-icons">brightness_6</i> <!-- Sun icon -->
+    </div>
+
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-md-6 col-lg-4">
@@ -32,7 +91,9 @@
                                 <input type="password" class="form-control" id="password" placeholder="Enter your password">
                             </div>
                             <div class="mb-3">
-                                <button type="submit" class=" s btn btn-primary w-100"><a href="C:\Users\tarus\OneDrive\Desktop\SIH\SIH.html">Sign-In</a></button>
+                                <button type="submit" class="btn btn-bg-light w-100">
+                                    <a href="..//Sansthaein-Aur-Samvidhan/SIH final.html" style="color: #000; text-decoration: none;">Sign In</a>
+                                </button>
                             </div>
                             <div class="text-center">
                                 <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
@@ -43,5 +104,46 @@
             </div>
         </div>
     </div>
+
+    <script>
+        // Dark Mode Toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        let isDarkMode = false;
+
+        themeToggle.addEventListener('click', () => {
+            isDarkMode = !isDarkMode;
+            document.body.classList.toggle('dark-mode', isDarkMode);
+            document.querySelector('.card').classList.toggle('dark-mode', isDarkMode);
+            document.querySelector('.card-title').classList.toggle('dark-mode', isDarkMode);
+            themeToggle.classList.toggle('dark-mode', isDarkMode);
+
+            if (isDarkMode) {
+                themeToggle.innerHTML = '<i class="material-icons">brightness_7</i>'; // Moon icon
+            } else {
+                themeToggle.innerHTML = '<i class="material-icons">brightness_6</i>'; // Sun icon
+            }
+        });
+
+        // Translation Toggle
+        const translateToggle = document.getElementById('translate-toggle');
+        let isHindi = false;
+
+        translateToggle.addEventListener('click', () => {
+            isHindi = !isHindi;
+            if (isHindi) {
+                document.querySelector('.card-title').textContent = 'साइन इन';
+                document.querySelector('label[for="email"]').textContent = 'ईमेल पता';
+                document.querySelector('label[for="password"]').textContent = 'पासवर्ड';
+                document.querySelector('button').textContent = 'साइन इन';
+                document.querySelector('.text-center p').innerHTML = 'क्या आपका खाता नहीं है? <a href="signup.html">साइन अप करें</a>';
+            } else {
+                document.querySelector('.card-title').textContent = 'Sign In';
+                document.querySelector('label[for="email"]').textContent = 'Email address';
+                document.querySelector('label[for="password"]').textContent = 'Password';
+                document.querySelector('button').textContent = 'Sign In';
+                document.querySelector('.text-center p').innerHTML = 'Don\'t have an account? <a href="signup.html">Sign Up</a>';
+            }
+        });
+    </script>
 </body>
 </html>
