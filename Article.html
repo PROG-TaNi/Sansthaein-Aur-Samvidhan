@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SANSTHAEIN AUR SAMVIDHAN - Current Affairs & Trends</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.6/index.css'>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .animate-fadeIn {
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        .animate-slideIn {
+            animation: slideIn 0.5s ease-out;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: grid;
+            overflow: scroll;
+        }
+
+        .card {
+            transition: all 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .sidebar-button {
+            transition: all 0.3s ease-in-out;
+        }
+
+        .sidebar-button:hover {
+            background-color: #2d3748; /* Darker background on hover */
+            transform: scale(1.05); /* Slightly scale up */
+        }
+
+        .sidebar-button i {
+            font-size: 1.25rem; /* Adjust icon size */
+            margin-right: 0.75rem; /* Space between icon and text */
+        }
+
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+        .notification-box {
+            position: absolute;
+            top: 60px;
+            right: 0;
+            width: 300px;
+            background-color: white;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 1rem;
+            display: none;
+            z-index: 1000;
+        }
+
+        .search-highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+        .body {
+            background-image: url(.//assets/images/std.jpg);
+        }
+
+        body {
+            position: relative;
+            overflow: hidden; /* Ensure pseudo-element doesn't cause scrollbars */
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('.//assets/images/std.jpg');
+            background-size: cover;
+            background-position: center;
+            filter: blur(2px); /* Adjust the blur intensity as needed */
+            z-index: -1; /* Ensure it stays behind other content */
+        }
+
+        /* Calendar container styles */
+        .calendar-container {
+            display: none; /* Initially hidden */
+            position: fixed;
+            top: 10%;
+            right: 10%;
+            width: 80%;
+            max-width: 800px;
+            background-color: white;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 1rem;
+            z-index: 1001;
+        }
+        /* pls scroll ho jaaaaa */
+        .tab-content {
+        display: none;
+        overflow-y: auto; 
+        max-height: 80vh; 
+        padding: 1rem;
+        box-sizing: border-box; 
+        }
+        .tab-content::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .tab-content::-webkit-scrollbar-thumb {
+            background-color: #888;
+            border-radius: 4px;
+        }
+
+        .tab-content::-webkit-scrollbar-thumb:hover {
+            background-color: #555;
+        }
+
+        
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-[#ffc1ac] via-white to-[#9efaa6]" style="background-image: url(..//Sansthaein-Aur-Samvidhan/current\ affair\ page\ .png);">
+    
+    <!-- Sidebar -->
+    <aside class="fixed top-0 left-0 h-screen w-64 text-white p-5 shadow-lg" style="background-color: #4449d96a;">
+
+        <div class="mb-10">
+            <a href="..//Sansthaein-Aur-Samvidhan/SIH final.html"><img src="..//Sansthaein-Aur-Samvidhan/logo final.png" alt="SANSTHAEIN AUR SAMVIDHAN" width="200px" height="50"></a>
+        </div>
+        <nav>
+            <ul class="space-y-2">
+                <li>
+                <button class="sidebar-button w-full text-left py-2 px-4 rounded" data-tab="trending">
+                    <a href="C:\Users\tarus\OneDrive\Desktop\SIH\Sansthaein-Aur-Samvidhan\SIH final.html"><i class="fas fa-trending-up"></i>Menu
+                    <svg class="inline-block w-4 h-4 ml-2" xmlns="http://www.w3.org/1000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14l8-8 8 8-8 8-8-8z"/></svg>
+                </button></li></a>
+                <li>
+                    <button class="sidebar-button w-full text-left py-2 px-4 rounded" data-tab="trending">
+                        <i class="fas fa-trending-up"></i>Current Affairs
+                        <svg class="inline-block w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14l8-8 8 8-8 8-8-8z"/></svg>
+                    </button>
+                </li>
+                <li>
+                    <button class="sidebar-button w-full text-left py-2 px-4 rounded" data-tab="national">
+                        <i class="fas fa-building"></i>Local News
+                    </button>
+                </li>
+                <li>
+                    <button class="sidebar-button w-full text-left py-2 px-4 rounded" data-tab="international">
+                        <i class="fas fa-globe-americas"></i>World News
+                    </button>
+                </li>
+                <li>
+                    <button class="sidebar-button w-full text-left py-2 px-4 rounded" data-tab="study-material">
+                        <i class="fas fa-book"></i>Study Material
+                    </button>
+                </li>
+                <li>
+                    <a href="C:\Users\tarus\OneDrive\Desktop\SIH\Sansthaein-Aur-Samvidhan\setting page .html"><button class="sidebar-button w-full text-left py-2 px-4 rounded" data-tab="settings">
+                        <i class="fas fa-cogs"></i> Settings 
+                    </button> </a>
+                </li>
+            </ul>
+        </nav>
+        <a href="..//Sansthaein-Aur-Samvidhan/index.html"><button class="mt-8 w-full bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-pink-600 hover:to-yellow-600 text-white py-2 px-4 rounded">
+            Take Quiz
+        </button></a>
+
+    </aside>
+
+    <!-- Main Content -->
+    <main class="ml-64 p-8 relative">
+        <header class="flex justify-between items-center mb-8">
+            <h1 class="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-#ed4911- to-#e416ff">
+                Study Material
+            </h1>
+            <div class="flex items-center space-x-4">
+                <div class="relative">
+                    <input type="text" id="search-input" placeholder="Search..." class="hidden bg-gray-800 text-white rounded px-4 py-2">
+                    <button id="search-toggle" class="text-white"><i class="fas fa-search"></i></button>
+                </div>
+                  <!-- Translation Button -->
+                  <button id="translate-toggle" class="text-white">
+                    <i class="fas fa-globe"></i> <!-- or use any other appropriate icon -->
+                </button>
+                <button id="notification-toggle" class="text-white"><i class="fas fa-bell"></i></button>
+                <button id="calendar-toggle" class="text-white"><i class="fas fa-map"></i></button>
+            </div>
+        </header>
+
+        <div class="tabs">
+            <div class="tab-buttons grid grid-cols-3 bg-gray-800 rounded-lg mb-4">
+                <button class="tab-button text-white py-2 px-4 rounded-lg" data-tab="trending">LEGISLATURE</button>
+                <button class="tab-button text-white py-2 px-4 rounded-lg" data-tab="national">EXECUTIVE</button>
+                <button class="tab-button text-white py-2 px-4 rounded-lg" data-tab="international">JUDICIARY</button>
+            </div>
+            <div id="trending" class="tab-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Trending content will be generated by JavaScript -->
+            </div>
+            <div id="national" class="tab-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- National content will be generated by JavaScript -->
+            </div>
+            <div id="international" class="tab-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- International content will be generated by JavaScript -->
+            </div>
+        </div>
+
+        
+    </main>
+
+    <div id="notification-box" class="notification-box">
+        <h3 class="text-lg font-semibold mb-2">Notifications</h3>
+        <p>No new notifications.</p>
+    </div>
+
+    <div id="calendar-container" class="calendar-container">
+        <div id='calendar'></div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.6/index.js'></script>
+    <script>
+        // Tab functionality
+const tabButtons = document.querySelectorAll('.tab-button');
+const tabContents = document.querySelectorAll('.tab-content');
+
+tabButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const tabName = button.getAttribute('data-tab');
+        tabButtons.forEach(btn => btn.classList.remove('bg-gray-700'));
+        button.classList.add('bg-gray-700');
+        tabContents.forEach(content => content.classList.remove('active'));
+        document.getElementById(tabName).classList.add('active');
+        updateTabContent(tabName);
+    });
+});
+
+// Sidebar button functionality
+document.querySelectorAll('aside button[data-tab]').forEach(button => {
+    button.addEventListener('click', () => {
+        const tabName = button.getAttribute('data-tab');
+        // Corrected query selector with quotes around the attribute selector
+        document.querySelector(`.tab-button[data-tab="${tabName}"]`).click();
+    });
+});
+
+// Search bar toggle
+const searchInput = document.getElementById('search-input');
+const searchToggle = document.getElementById('search-toggle');
+
+searchToggle.addEventListener('click', () => {
+    searchInput.classList.toggle('hidden');
+    searchInput.focus();
+});
+
+// Notification box toggle
+const notificationToggle = document.getElementById('notification-toggle');
+const notificationBox = document.getElementById('notification-box');
+
+notificationToggle.addEventListener('click', () => {
+    notificationBox.style.display = notificationBox.style.display === 'block' ? 'none' : 'block';
+});
+
+// Calendar toggle
+const calendarToggle = document.getElementById('calendar-toggle');
+const calendarContainer = document.getElementById('calendar-container');
+
+calendarToggle.addEventListener('click', () => {
+    calendarContainer.style.display = calendarContainer.style.display === 'block' ? 'none' : 'block';
+});
+
+searchInput.addEventListener('input', () => {
+    const searchTerm = searchInput.value.toLowerCase();
+    const allCards = document.querySelectorAll('.card');
+
+    allCards.forEach(card => {
+        const heading = card.querySelector('h3');
+        const text = heading.textContent;
+
+        if (searchTerm) {
+            // Create a regular expression with the searchTerm, escaping any special characters
+            const regex = new RegExp(`(${searchTerm.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&')})`, 'gi');
+            const highlightedText = text.replace(regex, '<span class="highlight">$1</span>');
+
+            heading.innerHTML = highlightedText;
+        } else {
+            // If no search term, reset the text
+            heading.innerHTML = text;
+        }
+    });
+});
+
+// cards generator
+function generateCards(container, articles, titlePrefix) {
+    container.innerHTML = ''; // Clear existing content
+    articles.forEach(article => {
+        const card = document.createElement('div');
+        card.className = 'bg-white text-gray-800 rounded-lg p-6 card animate-slideIn';
+        card.innerHTML = `
+            <h3 class="text-xl font-semibold mb-2">${titlePrefix} ${article.number}</h3>
+            <p><strong>What It Says:</strong> ${article.description}</p>
+            <p><strong>Example:</strong> ${article.example}</p>
+        `;
+        container.appendChild(card);
+    });
+}
+
+function updateTabContent(tabName) {
+    const trendingContainer = document.getElementById('trending');
+    const nationalContainer = document.getElementById('national');
+    const internationalContainer = document.getElementById('international');
+
+    // Hide all cards
+    trendingContainer.style.display = 'none';
+    nationalContainer.style.display = 'none';
+    internationalContainer.style.display = 'none';
+
+    // Articles 
+    const legislatureArticles = [
+    { number: 79, description: "This article talks about the Parliament of India, which is like the main decision-making group for the country. It’s made up of two houses: the Lok Sabha (House of the People) and the Rajya Sabha (Council of States).", example: "Imagine a school has two main groups: the Student Council (Lok Sabha) and the Advisory Council (Rajya Sabha). Together, they make important decisions for the school." },
+    { number: 80, description: "This article describes how members of the Rajya Sabha (Council of States) are appointed. They are chosen by different state legislatures and the President.", example: "Like how a school’s Advisory Council members might be chosen by various school committees and the principal." },
+    { number: 81, description: "This article explains how the Lok Sabha (House of the People) members are elected. They are elected by the people of India through elections.", example: "Just like students vote to elect their Student Council members, people vote to elect members of the Lok Sabha." },
+    { number: 83, description: "This article talks about the term length for both the Lok Sabha and Rajya Sabha. The Lok Sabha members serve for five years, while Rajya Sabha members serve for six years.", example: "If Student Council members serve for a year and Advisory Council members serve for two years, this article sets similar term lengths for the Parliament." },
+    { number: 100, description: "This article explains how votes are counted in the Lok Sabha and what happens if there is a tie. The Speaker of the Lok Sabha decides the outcome.", example: "If students vote for something and there’s a tie, the Student Council President decides the outcome." },
+    { number: 107, description: "This article describes how bills (proposed laws) are passed in Parliament. A bill must be approved by both houses (Lok Sabha and Rajya Sabha) and then signed by the President to become a law.", example: "If a proposed rule is suggested for the school, it must be approved by both the Student Council and Advisory Council and then by the principal to become a school rule." },
+    { number: 108, description: "This article talks about the procedure when both houses of Parliament meet together to discuss certain important issues. It’s like having a special joint meeting of the Student Council and Advisory Council.", example: "When both school committees meet together to discuss a big event, this is similar to the joint meetings described in this article." },
+    { number: 110, description: "This article defines what is considered a 'money bill' (a bill related to money matters like taxes). Only the Lok Sabha can introduce and approve money bills.", example: "If a proposed change in the school’s budget can only be introduced by the Student Council, this is similar to how money bills are handled in Parliament." },
+    { number: 111, description: "This article explains what happens if the President does not agree with a bill passed by Parliament. The President can send it back for reconsideration.", example: "If the principal doesn’t agree with a new school rule proposed by the Student Council, they can send it back for the council to review." },
+    { number: 168, description: "This article talks about the State Legislature, which is similar to the Parliament but at the state level. Each state has its own legislature to make decisions for the state.", example: "Just like each school has its own committees to make decisions, each state has its own legislature." },
+    { number: 170, description: "This article explains how many members should be in the State Legislative Assembly. The number of members is decided by the population of the state.", example: "If a school’s Student Council has a number of members based on the number of students, this article sets similar rules for state assemblies." },
+    { number: 171, description: "This article talks about the State Legislative Council (if a state has one) and how its members are chosen.", example: "Similar to how some schools have an Advisory Council with members chosen by various groups, this article explains how members of the State Legislative Council are chosen." },
+    { number: 172, description: "This article specifies the term length for the State Legislative Assembly. Members serve for five years unless the assembly is dissolved earlier.", example: "If the Student Council members serve for a year, this article sets a five-year term for state legislative assemblies." },
+    { number: 174, description: "This article explains how and when the State Legislature should meet. It’s like setting the schedule for when the school committees should have their meetings.", example: "If school committees are scheduled to meet regularly, this article sets similar rules for state legislatures." },
+    { number: 189, description: "This article describes how members of the State Legislative Assembly should take their oath of office.", example: "If new Student Council members must take an oath to serve their roles, this article describes a similar oath for state legislators." },
+    { number: 245, description: "This article explains that laws made by the Parliament are applicable throughout the country, while laws made by state legislatures apply only to their respective states.", example: "If school rules apply only to your school and national rules apply to all schools, this article describes a similar concept for laws." },
+    { number: 246, description: "This article talks about the division of powers between the Parliament and state legislatures, specifying what each can make laws about.", example: "If some rules are decided by the whole school system and others by individual schools, this article explains a similar division of powers." },
+    { number: 249, description: "This article allows Parliament to make laws on matters in the State List (state-level issues) if the Rajya Sabha agrees. It’s like letting the top committee make decisions on local issues with the lower committee’s approval.", example: "If the top committee can decide on local issues with approval, this article allows Parliament to make laws on state issues with Rajya Sabha's consent." },
+    { number: 250, description: "This article allows Parliament to make laws on any issue in the State List during an emergency. It’s like allowing the top committee to make decisions on local issues during an emergency.", example: "In an emergency, if the top committee can handle local issues, this article allows Parliament to make laws on state issues during an emergency." },
+    { number: 252, description: "This article allows two or more states to request Parliament to make laws on issues in the State List. It’s like multiple schools agreeing to have the top committee make a decision for them.", example: "If several schools agree to let the top committee decide on certain issues, this article allows states to request Parliament to make laws on their behalf." },
+    { number: 254, description: "If there is a conflict between a central law and a state law, the central law prevails. It’s like if a school rule conflicts with a national rule, the national rule wins.", example: "If a school rule conflicts with a national rule, the national rule takes precedence, similar to how central laws prevail over state laws." },
+    { number: 255, description: "This article ensures that laws made by Parliament are not invalidated due to minor procedural mistakes. It’s like making sure a school rule isn’t thrown out because of a small paperwork error.", example: "If a school rule has a minor error but is still valid, this article ensures that central laws remain valid despite minor procedural issues." },
+    { number: 123, description: "The President can make ordinances (temporary laws) if Parliament is not in session, but these must be approved by Parliament later. It’s like the principal making temporary rules when the Student Council is not meeting.", example: "If the principal makes temporary rules while the Student Council isn’t meeting, these rules must be approved by the council later." },
+    { number: 213, description: "The Governor can make ordinances (temporary laws) for a state when the State Legislature is not in session, but these must be approved later. It’s like a school principal making temporary rules for a class when the class committee is not meeting.", example: "If the principal makes temporary rules for a class when the committee isn’t meeting, these rules must be approved by the committee later." },
+    { number: 368, description: "This article talks about how amendments (changes) to the Constitution are made, which requires approval by both houses of Parliament and sometimes by state legislatures. It’s like changing the school’s constitution with approval from both the Student Council and the Advisory Council.", example: "If changing school rules requires approval from both the Student Council and Advisory Council, this article describes the process for amending the Constitution with similar approvals." }
+    ];
+
+    const executiveArticles = [
+        { number: 52, description: "The President is the head of the country, kind of like the principal of a big school. This person represents the whole country and ensures everything runs smoothly.", example: "Imagine your school principal makes sure that every class, teacher, and student follows the school rules and that the school is running well." },
+        { number: 53, description: "The President holds all the powers of the executive branch, which means they’re in charge of making sure that the laws are carried out properly, like how a head teacher makes sure all the school's rules are followed.", example: "Just like a head teacher ensures that all classroom rules are being followed, the President ensures that all laws are put into action." },
+        { number: 54, description: "The President is elected by the members of both houses of Parliament and the Legislative Assemblies of the States. It’s like how a school president is chosen by votes from students and teachers.", example: "If your class elects a class representative, and the whole school votes for the school president, this is similar to how the President is elected in India." },
+        { number: 61, description: "If the President does something very wrong, Parliament can vote to remove them from office. It’s like how a school board can decide to remove a principal if they are not doing their job correctly.", example: "If a principal breaks important school rules, the school board can vote to replace them, similar to how the President can be removed if necessary." },
+        { number: 72, description: "The President can forgive or lessen the punishment for people who have been convicted of crimes. It’s like when a teacher gives a student a second chance or reduces a punishment.", example: "If a student is given detention, but the teacher decides to reduce it or let them off with a warning, it’s similar to how the President can reduce a criminal’s sentence." },
+        { number: 74, description: "The President works with a Council of Ministers (a group of advisors). The Council helps the President make decisions, much like how a class team of students helps the class representative make decisions for the class.", example: "If the class representative has a team of students to help with decisions and organize events, this is like the Council of Ministers helping the President with important decisions." },
+        { number: 75, description: "The Prime Minister and the other ministers are appointed by the President. The Prime Minister is like the class leader who chooses their team of helpers.", example: "If your class leader picks a team to help with different class tasks, this is similar to how the Prime Minister selects ministers." },
+        { number: 77, description: "This article explains how the President’s decisions must be documented in writing. It’s like how important decisions made by a class team should be written down and shared with everyone.", example: "If a class team decides on new rules, they write them down and share them with the class. Similarly, the President’s decisions are written down and documented." },
+        { number: 78, description: "The Prime Minister is required to give information about the government's activities to the President. It’s like how a class representative must report back to the class on what the team is doing.", example: "If the class representative has to update the class on what’s been planned or done, it’s similar to how the Prime Minister informs the President about government actions." },
+        { number: 123, description: "The President can make laws on important matters when Parliament is not in session. It’s like how a class representative can make quick decisions when the full class isn’t present.", example: "If the class representative makes a decision about an event when the whole class isn’t there, this is like how the President can make laws temporarily." },
+        { number: 153, description: "Each state has its own Governor. The Governor is like the principal of each state’s school.", example: "Just as every school has its own principal, each state has its own Governor who manages state affairs." },
+        { number: 154, description: "The Governor has the power to run the state’s executive branch. This means they make sure the state’s laws and policies are followed, like how a principal ensures school rules are followed.", example: "The Governor makes sure that everything in the state runs as per the laws, similar to how a principal ensures all school rules are followed." },
+        { number: 155, description: "The Governor is appointed by the President. It’s like how a principal is appointed by the school district.", example: "If a school district appoints a principal, the President appoints the Governor for each state." },
+        { number: 161, description: "The Governor can forgive or lessen punishments for people convicted of crimes in the state. It’s like when a school principal can give a student a second chance or reduce their punishment.", example: "If a principal decides to shorten a student’s detention time, it’s similar to how the Governor can lessen a criminal’s sentence." },
+        { number: 163, description: "The Governor needs a Council of Ministers to help with running the state. It’s like how a school principal has a team of teachers to help with managing the school.", example: "If a principal has a team of teachers to help with school management, this is similar to how the Governor works with a Council of Ministers for state management." }
+    ];
+    const judiciaryArticles = [
+        { number: 124, description: "This article sets up the Supreme Court of India, like creating the school’s top committee that handles all the important decisions and disputes.", example: "Just like a school has a top committee to resolve big issues, this article establishes the Supreme Court to handle major legal matters in the country." },
+        { number: 125, description: "This article states that Supreme Court judges are paid salaries decided by the Parliament, similar to how teachers' salaries are determined by the school board.", example: "If a school board decides how much teachers earn, Parliament decides the salaries for Supreme Court judges." },
+        { number: 126, description: "If the Chief Justice of the Supreme Court is absent, the President can appoint an Acting Chief Justice. It’s like appointing a substitute teacher when the regular teacher is away.", example: "Just as a substitute teacher takes over when the regular teacher is absent, an Acting Chief Justice takes over when the Chief Justice is not available." },
+        { number: 127, description: "This article allows the appointment of ad hoc judges (temporary judges) to help the Supreme Court when needed. It’s like having extra teachers help out during busy times.", example: "If extra teachers are needed to manage a busy classroom, ad hoc judges help the Supreme Court when there’s a lot of work." },
+        { number: 128, description: "Retired judges of the Supreme Court can be invited to sit in and help with cases if needed. It’s like calling back a retired teacher to help with special classes.", example: "If a retired teacher is invited to assist with classes, retired judges can be invited to help with important cases." },
+        { number: 129, description: "The Supreme Court is a court of record, meaning it keeps a detailed record of all its decisions. It’s like keeping a permanent record of all school activities and decisions.", example: "Just like a school keeps detailed records of student achievements and decisions, the Supreme Court keeps detailed records of its rulings." },
+        { number: 130, description: "The Supreme Court has its seat (main location) in Delhi, where it does all its work. It’s like having the main office of a school in one specific building.", example: "If your school’s main office is in one building, the Supreme Court’s main office is in Delhi." },
+        { number: 131, description: "The Supreme Court has the power to solve disputes between states and the central government. It’s like having a mediator to resolve arguments between different groups in school.", example: "If two class groups have a disagreement, the mediator helps resolve it, just like the Supreme Court helps solve disputes between states and the central government." },
+        { number: 132, description: "The Supreme Court can hear appeals on important issues that affect the Constitution. It’s like a special committee that reviews big decisions affecting school rules.", example: "If a special committee reviews big decisions affecting the whole school, the Supreme Court reviews important constitutional matters." },
+        { number: 133, description: "The Supreme Court can hear appeals in civil cases (like disputes about property or contracts). It’s like having a top committee review major disagreements about school rules.", example: "If there’s a major disagreement about school rules, a top committee can review it, similar to how the Supreme Court reviews civil cases." },
+        { number: 134, description: "Appeals from High Courts (lower courts) can be taken to the Supreme Court on certain important issues. It’s like being able to appeal to a top committee if you’re not happy with a decision made by a lower committee.", example: "If you disagree with a decision made by a class committee, you can appeal to a higher committee, similar to how appeals from High Courts go to the Supreme Court." },
+        { number: '134A', description: "This article allows for appeals in cases involving serious criminal matters to the Supreme Court. It’s like bringing the most serious issues to the attention of the top committee in school.", example: "If there’s a serious issue in school, it gets escalated to the top committee, similar to how serious criminal cases are taken to the Supreme Court." },
+        { number: 135, description: "This article allows the Supreme Court to decide on issues not covered by existing laws, like making new rules when needed. It’s like creating new rules in school when no existing rules cover a situation.", example: "If a new situation arises in school that existing rules don’t cover, new rules can be made, similar to how the Supreme Court makes decisions on new issues." },
+        { number: 136, description: "The Supreme Court can grant special permission to hear appeals on important cases from any court. It’s like letting a top committee review special cases from any school committee.", example: "If a top committee is allowed to review special cases from all other committees, this is like how the Supreme Court can review important cases from any court." },
+        { number: 137, description: "The Supreme Court can review and correct its own judgments if needed. It’s like having the ability to go back and correct any mistakes in a school decision.", example: "If a school committee makes a mistake in a decision, it can correct it later, similar to how the Supreme Court can review and correct its judgments." },
+        { number: 141, description: "The Supreme Court’s decisions are binding on all lower courts. It’s like how decisions made by a top school committee must be followed by all other school committees.", example: "If the top committee’s decisions must be followed by all other committees in school, this is similar to how all courts must follow the Supreme Court’s decisions." },
+        { number: 142, description: "The Supreme Court can make any order or decree needed to do justice in a case, even if it’s not covered by existing laws. It’s like having the ability to make special decisions to ensure fairness in school.", example: "If a special decision is needed to ensure fairness in school, the top committee can make it, similar to how the Supreme Court can make special orders." },
+        { number: 143, description: "The President can ask the Supreme Court for advice on important legal questions. It’s like asking a top committee for advice on complex issues.", example: "If a school principal asks a top committee for advice on a complex issue, this is similar to how the President seeks advice from the Supreme Court." },
+        { number: 214, description: "Each state has its own High Court. It’s like every school having its own committee to handle school-related issues.", example: "Just like each school has its own committee to handle issues, each state has its own High Court." },
+        { number: 215, description: "High Courts are courts of record, keeping detailed records of their decisions. It’s like how a school committee keeps detailed minutes of its meetings.", example: "If a school committee keeps detailed records of decisions, High Courts keep detailed records of their judgments." },
+        { number: 216, description: "Each High Court has a Chief Justice and other judges. It’s like having a principal and teachers in a school committee.", example: "Just as a school committee has a principal and teachers, a High Court has a Chief Justice and judges." },
+        { number: 217, description: "Judges of the High Court are appointed by the President, based on the recommendations of the Chief Justice of the High Court. It’s like how a principal appoints teachers based on recommendations.", example: "If a principal selects teachers based on recommendations, the President appoints High Court judges based on recommendations." },
+        { number: 219, description: "High Court judges must take an oath to uphold the Constitution and perform their duties faithfully. It’s like how school committee members take an oath to do their best for the school.", example: "If committee members promise to do their best for the school, High Court judges promise to uphold the Constitution and do their jobs well." },
+        { number: 220, description: "High Court judges cannot hold any other position or job while serving as judges. It’s like how committee members can’t take on other major roles while working on their committee.", example: "If committee members must focus solely on their committee work, High Court judges focus solely on their judicial duties." },
+        { number: 221, description: "High Court judges are paid salaries determined by Parliament, similar to how teachers are paid by the school board.", example: "If teachers’ salaries are decided by the school board, High Court judges’ salaries are decided by Parliament." },
+        { number: 222, description: "Judges can be transferred from one High Court to another if needed. It’s like moving a teacher from one school to another if necessary.", example: "If a teacher is transferred to another school, judges can be transferred to different High Courts if needed." },
+        { number: 224, description: "This article allows for the appointment of acting High Court judges when needed. It’s like having substitute teachers when the regular teachers are away.", example: "If a substitute teacher is needed, acting judges can take over when regular judges are unavailable." },
+        { number: 224, description: "This article provides for the appointment of additional judges to handle increased workload in High Courts. It’s like hiring extra teachers when there are more students.", example: "If there are extra students, additional teachers are hired, similar to how extra judges are appointed when there’s a lot of work in High Courts." },
+        { number: 225, description: "High Courts have jurisdiction over the cases arising within their states and can hear appeals from lower courts. It’s like how a school committee handles issues within its own school and reviews decisions from other committees.", example: "If a school committee handles its own issues and reviews decisions from other committees, High Courts handle cases within their states and review lower court decisions." },
+        { number: 226, description: "This article gives High Courts the power to issue writs (orders) to enforce fundamental rights and other legal rights. It’s like how a committee can issue orders to ensure rules are followed.", example: "If a school committee can issue orders to ensure rules are followed, High Courts can issue writs to enforce rights and laws." },
+        { number: 227, description: "High Courts have the power to review their own decisions and correct any mistakes. It’s like a school committee going back to review and fix its decisions.", example: "If a school committee reviews and corrects its decisions, High Courts can review and correct their own judgments." },
+        { number: 228, description: "This article provides for the establishment of a High Court for each state, ensuring that each state has its own judicial system. It’s like each school having its own committee to handle its issues.", example: "If every school has its own committee, each state has its own High Court to handle judicial matters." },
+        { number: 230, description: "High Court judges can be removed from office by the President on the basis of an address by both Houses of Parliament. It’s like how a committee member can be removed based on a decision by the entire committee.", example: "If a committee member can be removed based on a decision by the whole committee, High Court judges can be removed based on an address by both Houses of Parliament." },
+        { number: 231, description: "High Court judges can be appointed to the Supreme Court if needed. It’s like promoting a school committee member to a higher committee.", example: "If a school committee member is promoted to a higher committee, High Court judges can be appointed to the Supreme Court if necessary." }
+        ];
+
+    
+    // Show cards
+    if (tabName === 'trending') {
+        trendingContainer.style.display = 'grid';
+        generateCards(trendingContainer, legislatureArticles, 'ARTICLE');
+    } else if (tabName === 'national') {
+        nationalContainer.style.display = 'grid';
+        generateCards(nationalContainer, executiveArticles, 'ARTICLE');
+    } else if (tabName === 'international') {
+        internationalContainer.style.display = 'grid';
+        generateCards(internationalContainer, judiciaryArticles, 'ARTICLE');
+    }
+}
+
+
+// Initialize default tab content
+updateTabContent('trending');
+
+// Initialize FullCalendar
+document.addEventListener('DOMContentLoaded', function() {
+    const calendarEl = document.getElementById('calendar');
+    new FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth',
+        dateClick: function(info) {
+            alert('Clicked on: ' + info.dateStr);
+        }
+    }).render();
+});
+
+    </script>
+</body>
+</html>
